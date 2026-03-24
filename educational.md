@@ -96,7 +96,7 @@ function renderEducationalDiv(educationals) {
 }
 
 function renderAllEducationals() {
-    renderEducationalDiv({{ site.data.educational || jsonify }});
+    renderEducationalDiv({{ site.data.educational | jsonify }});
 }
 
 function renderTags() {
@@ -117,20 +117,20 @@ function renderTags() {
 renderTags();
 renderAllEducationals();
 
-<!-- Add listeners to handle interactions with the search -->
+// Add listeners to handle interactions with the search
 
-<!-- This first one is the filtering by clicking on the tag buttons -->
+// This first one is the filtering by clicking on the tag buttons
 let tagButtons = document.getElementsByClassName("tag-button");
 for (let index = 0; index < tagButtons.length; index++) {
     tagButtons[index].addEventListener('click', (event) => {
-        <!-- If the value is "All", it means we want to display all the cards -->
+        // If the value is "All", it means we want to display all the cards
         const tagValue = event.target.outerText === "All" ? "" : event.target.outerText;
         const filteredEducationals = getFilteredEducationalsByTag(tagValue);
         renderEducationalDiv(filteredEducationals);
     })
 }
 
-<!-- This second one is by leveraging what the users write in the search bar -->
+// This second one is by leveraging what the users write in the search bar
 document.getElementById('search-input').addEventListener('keyup', (event) => {
     const inputValue = event.target.value;
     const filteredEducational = getFilteredEducationalsByContent(inputValue);

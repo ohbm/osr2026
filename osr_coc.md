@@ -10,7 +10,7 @@ We take our code of conduct very seriously & you should too! This code will be e
 All attendees, speakers, sponsors, and volunteers for Design & Content are required to agree to the event’s Code of Conduct. We are expecting cooperation from all participants to establish a safe environment for all.
 
 ### NEED HELP?
-You can anonymously contact us using this [web page](https://www.humanbrainmapping.org/i4a/forms/index.cfm?id=129&pageid=3915&showTitle=1&widgetPreview=0&page_version=) hosted by the OHBM Executive Office, call +1 612-749-1154, or contact a member of OHBM’s Executive Office identified by staff ribbon on their badges or located behind the [registration desk at the Annual Meeting](https://ohbm.sparkle.space/in/information).
+You can anonymously contact us using the reporting methods described in the [OHBM Code of Conduct](https://www.humanbrainmapping.org/i4a/pages/index.cfm?pageid=3912), call +1 952-545-6208, or contact a member of OHBM’s Executive Office.
 
 ## THE QUICK VERSION
 We are committed to provide a harassment-free conference experience for everyone, regardless of gender, age, sexual orientation, disability, physical appearance, body size, ethnicity, or religion (or lack thereof). It means we encourage respectful and tolerant behaviour towards everyone at the OHBM and SIG activities. Harassment of conference participants is not allowed in any form. Sexual language and imagery is not appropriate for any conference venue, including talks, workshops, parties, or other online media. Conference participants violating these rules may be sanctioned or expelled from the conference without a refund at the discretion of the conference organizers.
@@ -53,5 +53,4 @@ While we do not assume OHBM members know the cultural practices of every ethnic 
 
 #### ACKNOWLEDGEMENTS
 This statement has drawn material from the [Ada Initiative Code of Conduct](https://geekfeminism.wikia.org/wiki/Conference_anti-harassment/Policy), the [Apache Software Foundation Code of Conduct](https://www.apache.org/foundation/policies/conduct.html), the [Mozilla Community Participation Guidelines](https://www.mozilla.org/en-US/about/governance/policies/participation/), and the [OHBM code of conduct](https://www.humanbrainmapping.org/i4a/pages/index.cfm?pageid=3912).
-
 

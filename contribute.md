@@ -23,35 +23,25 @@ and you are under no obligation to agree to any work at this stage!
 <div id='host'></div>
 ## OSR Hosts
 
-<img align="right" src="../img/undraw_Hello_qnas.svg" alt="host" width="30%">
-
 OSR Hosts will be online to welcome speakers and guests in the virtual OSR space in your own timezone. We would also love for you to be involved in designing our opening and closing events, overseeing the use of the multipurpose virtual OSR space, chairing sessions, moderating chat, and ensuring that we are reaching our goals for accessibility. The [OS-SIG and OSR Co-Chairs](https://ossig.netlify.com/) will help build and support your efforts all the way.
 
 <div id='officehours'></div>
 ## Open Research Advisor
-
-<img align="right" src="../img/undraw_code_review_l1q9.svg" alt="officehours" width="40%">
 
 Stepping into the Open Science field can be a daunting task, and we want to help with that. Many of our community members have years of experience and loads of skills in open source programming, analysis methods, open publishing and peer review, data and code sharing tools and practices. On the other hand, many of us are new to all of this and would like to know more! We want to create an informal, inclusive and helpful environment where newcomers are encouraged to ask questions, and experienced open neuroimagers or open sciencers are happy to answer them. If you like helping others and would like to share your knowledge in the OSR, please let us know! In the virtual space this will likely involve being available at designated times for one-to-one or one-to-group chats via video or text. We will let you know as soon as we have details on the process, and you will be involved in designing this every step of the way.
 
 <div id='tech'></div>
 ## Online Tech Support and Planning
 
-<img align="right" src="../img/undraw_programmer_imem.svg" alt="tech" width="40%">
-
 The move to a virtual meeting is bringing some new technological challenges, some yet we don't even understand know about! We want to ensure a seamless and accessible experience for our community, and this will undoubtedly involve getting to grips with some new tech, such as building of the virtual environment, live captioning and video production. If you like fiddling with a bit of tech we'd love for you to join us in helping to deliver the professional and accessible OSR experience our community deserves. As with all other roles, you will be part of the team helping to build these processes and make decisions as we uncover them.
 
 <div id='branding'></div>
 ## Branding and Design
 
-<img align="right" src="../img/undraw_logo_design_bjnx.svg" alt="branding" width="40%">
-
 Branding and design will create an identity for the OSR, and subsequently project an identity for our community. We are proud of the work we do, and we want to create devices which can unite us while bringing others in. This includes digital material on our website, any branding that we can build into the virtual space, splash screens, virtual backgrounds, slide templates, fun graphics to throw around the place, and anything else you can think of to bring the virtual environment to life! If you have a creative mind and like designing and building, feel free to join! There are many details yet to finalise on this one, so this is a great opportunity to put your stamp on the project.
 
 <div id='social'></div>
 ## Social and Media
-
-<img align="right" src="../img/undraw_tweetstorm_49e8.svg" alt="branding" width="40%">
 
 Crafting material for social media and communications is an art form, particularly if this material is targeted at both public and discipline specific audiences. If you are an avid blogger, tweeter, or other media generator, we would love for you to help disseminate the experience of the OSR to our online audiences. This may include working with the <a href="https://www.humanbrainmapping.org/i4a/pages/index.cfm?pageid=3910">OHBM Communications Committee</a> team during the meeting to record the experience, with the <a href="https://www.ohbmbrainmappingblog.com/">Blog</a> team to develop a post after the meeting, and some live communication during the meeting itself. This would be a great opportunity to practice your public engagement and communication skills, while being an essential root to bring people into the OSR and share the ethos of open research practice.
 

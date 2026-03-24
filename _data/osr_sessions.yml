@@ -1,0 +1,178 @@
+- id: opening-bids-updates
+  category: roundtable
+  sort_order: 1
+  page_url: /panel/
+  anchor: opening-bids-updates
+  title: Open Science Room Opening ft. BIDS annual updates
+  day_label: June 15, 2026
+  weekday: Monday
+  start_time: "08:00"
+  end_time: "09:15"
+  gcal_start: "20260615T080000"
+  gcal_end: "20260615T091500"
+  description: >
+    This opening round table introduces the 2026 Open Science Room and pairs that overview with annual updates from the Brain Imaging Data Structure (BIDS) community. It is designed to orient attendees to the week’s program, summarize the current state of OSSIG and BIDS work, and create an early space for questions from both in-person and online participants.
+  objectives:
+    - Provide updates on the Open Science Room and the Open Science Special Interest Group.
+    - Provide annual updates on the development and maintenance of BIDS tools.
+    - Invite community feedback that can shape future OSR and OSSIG activities.
+
+- id: sharing-data-across-borders
+  category: panel
+  sort_order: 2
+  number: 1
+  page_url: /panel/
+  anchor: sharing-data-across-borders
+  title: Sharing Data Across Borders
+  day_label: June 15, 2026
+  weekday: Monday
+  start_time: "11:30"
+  end_time: "12:30"
+  gcal_start: "20260615T113000"
+  gcal_end: "20260615T123000"
+  description: >
+    The global neuroscience community is creating data at a scale that requires new models of responsible governance. This panel examines how legal, ethical, and technical constraints shape what can be shared, who can access it, and how cross-border collaboration can remain both equitable and compliant. By bringing together perspectives on privacy, infrastructure, and international participation, the discussion focuses on what responsible data sharing looks like in practice rather than in the abstract.
+  objectives:
+    - Explain differences between federated, centralized, and decentralized governance strategies, and between anonymized and de-identified data.
+    - Compare how legal and ethical constraints affect data sharing across regions.
+    - Highlight practical approaches for more equitable cross-border participation in global neuroscience.
+
+- id: communicate-science
+  category: panel
+  sort_order: 3
+  number: 2
+  page_url: /panel/
+  anchor: communicate-science
+  title: How to Communicate Your Science to a Broader Audience
+  day_label: June 15, 2026
+  weekday: Monday
+  start_time: "17:00"
+  end_time: "18:00"
+  gcal_start: "20260615T170000"
+  gcal_end: "20260615T180000"
+  description: >
+    Effective science communication is a necessary bridge between subject-matter experts and broader audiences, whether the goal is public understanding, interdisciplinary collaboration, or policy impact. This panel explores how researchers tailor complex ideas without losing accuracy, and how enthusiasm, storytelling, visual design, and different media formats can make scientific work more accessible and memorable.
+  objectives:
+    - Clarify why communicating science beyond specialist circles matters for impact, trust, and collaboration.
+    - Explore what makes scientific storytelling memorable and effective across talks, blogs, podcasts, social media, and industry-facing contexts.
+    - Connect science communication to open-science goals such as accessibility, inclusion, and broader reuse.
+
+- id: ten-years-ossig
+  category: panel
+  sort_order: 4
+  number: 4
+  page_url: /panel/
+  anchor: ten-years-ossig
+  title: Ten years of OSSIG - historical perspectives on open science at OHBM
+  day_label: June 17, 2026
+  weekday: Wednesday
+  start_time: "09:15"
+  end_time: "10:15"
+  gcal_start: "20260617T091500"
+  gcal_end: "20260617T101500"
+  description: >
+    This panel reflects on the past, present, and future of open science within the OHBM community by bringing historical perspective to current debates. Drawing on the experience of past and present OSSIG leaders, the session looks at how the community has changed over the last decade, what open-science practices have become established, and which questions should shape the next phase of OSR and OSSIG activity.
+  objectives:
+    - Review the history of open science within OHBM and the role of OSSIG in that development.
+    - Stimulate discussion about how the community’s priorities have shifted over the last ten years.
+    - Use audience participation to inform future OSSIG and OSR directions.
+
+- id: career-journeys
+  category: panel
+  sort_order: 5
+  number: 3
+  page_url: /panel/
+  anchor: career-journeys
+  title: Career Journeys in Open Science
+  day_label: June 17, 2026
+  weekday: Wednesday
+  start_time: "12:30"
+  end_time: "13:30"
+  gcal_start: "20260617T123000"
+  gcal_end: "20260617T133000"
+  description: >
+    Open-science expectations are expanding across journals, funders, and research communities, but they still often feel optional or extra for people trying to build sustainable careers. This panel focuses on how researchers inside and outside academia have turned open-science practices into real professional assets, and how trainees can weigh the opportunities, trade-offs, and skills that matter across different career paths.
+  objectives:
+    - Identify career pathways within and beyond academia where open-science expertise is a meaningful asset.
+    - Discuss tensions between traditional incentives and open-science practice, along with strategies for navigating them sustainably.
+    - Highlight concrete open-science skills that can strengthen a trainee’s competitiveness on the job market.
+
+- id: buffet-open-science
+  category: tabletalk
+  sort_order: 1
+  number: 1
+  page_url: /tabletalk/
+  anchor: buffet-open-science
+  title: The Buffet of Open Science
+  day_label: June 15, 2026
+  weekday: Monday
+  start_time: "09:30"
+  end_time: "10:30"
+  gcal_start: "20260615T093000"
+  gcal_end: "20260615T103000"
+  description: >
+    Open science offers many practices, tools, and standards, but that breadth can be as intimidating as it is empowering. This session frames open science as a buffet: there is no single plate everyone must take, but there are useful starting points, common ingredients, and practical ways to build a workflow that fits a project’s goals, resources, and constraints.
+  objectives:
+    - Give attendees a clearer overview of the stages of a neuroscience project where open-science practices apply.
+    - Help participants evaluate where they currently stand and which practices are most realistic to adopt next.
+    - Highlight common tools and standards that can make science more open, reproducible, and collaborative.
+
+- id: missing-large-data
+  category: tabletalk
+  sort_order: 2
+  number: 2
+  page_url: /tabletalk/
+  anchor: missing-large-data
+  title: What’s/who’s missing in the Era of Large Data?
+  day_label: June 15, 2026
+  weekday: Monday
+  start_time: "13:00"
+  end_time: "14:00"
+  gcal_start: "20260615T130000"
+  gcal_end: "20260615T140000"
+  description: >
+    Large-scale neuroimaging datasets have transformed the field, but they also raise harder questions about representation, harmonization, bias, and generalizability. This round table asks which populations, environments, and forms of variation are missing from the datasets that increasingly shape contemporary neuroscience, and how current analytic choices may unintentionally reinforce those gaps.
+  objectives:
+    - Identify which populations are overrepresented and underrepresented in major large-scale neuroimaging datasets.
+    - Examine how harmonization, normalization, and modeling choices can remove or distort meaningful variation.
+    - Explore strategies for making future large-data efforts more inclusive, equitable, and scientifically valid.
+
+- id: preregistration-creativity
+  category: tabletalk
+  sort_order: 3
+  number: 3
+  page_url: /tabletalk/
+  anchor: preregistration-creativity
+  title: Preregistration Enhances Creativity in Science
+  day_label: June 15, 2026
+  weekday: Monday
+  start_time: "14:30"
+  end_time: "15:30"
+  gcal_start: "20260615T143000"
+  gcal_end: "20260615T153000"
+  description: >
+    Preregistration is increasingly encouraged as part of an open and transparent research culture, yet it is still surrounded by misunderstandings about rigidity, paperwork, and lost flexibility. This session focuses on the common perception that preregistration limits creativity and contrasts that with the ways it can actually clarify ideas early, improve study design, and create a transparent structure for both confirmatory and exploratory work.
+  objectives:
+    - Identify common misconceptions about preregistration, including concerns about flexibility, workload, and creativity.
+    - Discuss how preregistration can coexist with both confirmatory and exploratory research.
+    - Share practical ways to use preregistration without limiting creative scientific work.
+
+- id: llms-open-science
+  category: tabletalk
+  sort_order: 4
+  number: 4
+  page_url: /tabletalk/
+  anchor: llms-open-science
+  title: Using LLMs to Lower the Barrier to Entry to Open Science
+  day_label: June 16, 2026
+  weekday: Tuesday
+  start_time: "08:00"
+  end_time: "09:00"
+  gcal_start: "20260616T080000"
+  gcal_end: "20260616T090000"
+  description: >
+    Large language models are arriving at a moment when many research groups are already strained by the complexity of open-science workflows. This session examines where LLMs can genuinely reduce friction, such as drafting documentation, translating code, assisting with preregistrations, or helping users navigate standards, while also addressing the risks of hallucination, opaque provenance, and over-automation.
+  objectives:
+    - Identify productive uses of LLMs within research and open-science workflows.
+    - Discuss why human-in-the-loop workflows are essential for responsible AI-assisted research.
+    - Compare real-world failure modes and guardrails for using LLMs in scientific work.

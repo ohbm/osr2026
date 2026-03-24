@@ -6,7 +6,7 @@ title: Volunteering Opportunities
 ## Roles
 
 **OSR & BrainHack Volunteering** <br>
-Dates: During OHBM 2025 <br>
+Dates: During OHBM 2026 <br>
 Format: in-person or virtually <br>
 
 <ins>Tasks</ins>
@@ -18,7 +18,7 @@ Format: in-person or virtually <br>
     * Prep the materials
     * I'm game for anything
 
-***[Get involved now!](/volunteer.md)***
+***[Get involved now!](/volunteer/)***
 
 ---
 
@@ -89,4 +89,3 @@ Dates: Now - 20/06 <br>
 <ins>Tasks</ins>
 * Create OSR content to tweet before the conference. 
 * Advertise OSR until OHBM.  -->
-

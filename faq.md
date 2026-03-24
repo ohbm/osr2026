@@ -23,25 +23,22 @@ title: FAQ
 
 <div id='what'></div><br>
 ### What is the OSR?
-The Open Science Room (OSR) is a conference within a conference, at the <a href="https://www.humanbrainmapping.org/">Organization for Human Brain Mapping</a> (OHBM) annual meeting. The meeting this year will be held on a hybrid platform opening on June - virtually (from anywhere in the world) and in Glasgow, Scottland! The OSR hosts discussions around advances in neuroimaging, with a specific interest in open research practices.
+The Open Science Room (OSR) is a conference within a conference, at the <a href="https://humanbrainmapping.org/">Organization for Human Brain Mapping</a> (OHBM) annual meeting. The meeting this year will be held on a hybrid platform opening on June - virtually (from anywhere in the world) and in Glasgow, Scottland! The OSR hosts discussions around advances in neuroimaging, with a specific interest in open research practices.
 
 <div id='whopresent'></div><br>
 ### Who will be presenting in the OSR?
-We have selected presentations following an open call for submission and an open review. The [schedule](/schedule.html) of talks contains links to the accepted presentations, with links to speaker bios. You can also review [speaker profiles](/speakers-PLACEHOLDER.md).
+We have selected presentations following an open call for submission and an open review. The [schedule](/schedule/) of talks contains links to the accepted presentations, with links to speaker bios. You can also review [speaker profiles](/speakers/).
 
-We are open to [submissions for emergent sessions](submit.md) throughout the meeting. Emergent organisers will also be listed on the [speakers](/speakers-PLACEHOLDER.md) page where profiles are provided.
+We are open to [submissions for emergent sessions](/submit/) throughout the meeting. Emergent organisers will also be listed on the [speakers](/speakers/) page where profiles are provided.
 
 <div id='whovisit'></div><br>
 ### Who can participate in the OSR?
-Anyone can participate in the OSR! Our content is scheduled to minimise clashes with live material being presented in the main meeting, and our content will be repeated twice times every 24 hours at different timezones (Americas/Europe, and Europe/Asia) so you can join at a time convenient for you.
+Anyone can participate in the OSR! Our content is scheduled to minimise clashes with the talaraich lectures.
 
-**You must register for the OSR to obtain the details to connect to the discussions.** Registration for the OSR is included with the main meeting if you are attending the full <a href="https://www.humanbrainmapping.org/i4a/pages/index.cfm?pageid=3958">OHMB program</a>. Details for how to join the OSR will be provided in the OHBM meeting virtual platform.
-
-You can also [register](register.md) for the OSR at [zero-cost](access.md/#zero-cost). Please complete the registration form and we will communicate the details regarding how to join the conversation before the meeting commences on June.
 
 <div id='attend'></div><br>
 ### Do I have to travel to participate in the OSR?
-This year as OHBM, we will be hybrid. You can attend any OSSIG event either in Glasgow or from anywhere with an internet connection and access to a web browser.
+This year as OHBM, we will be hybrid. You can attend any OSSIG event either in Bordeaux or from anywhere with an internet connection and access to a web browser.
 
 <div id='when'></div><br>
 ### When will I know if I have been accepted to present in the OSR?
@@ -59,7 +56,7 @@ Before and during the meeting you can contact using one of the channels describe
 
 <div id='help'></div><br>
 ### Find help
-For general OSR support: <a href="mailto:ohbm.osr@gmail.com" _target="_blank">email us</a>
+For general OSR support: <a href="mailto:ohbmopenscience@gmail.com" _target="_blank">email us</a>
 
 For general, technical or open science-related text-based support: ask a question on our the Mattermost channel<a href="https://mattermost.brainhack.org/brainhack/channels/help_desk-general" _target="_blank"><code>help_desk-general</code></a>
 
@@ -79,7 +76,7 @@ We have structured our content to be repeated across two [timezones] over 24 hou
 ### Who has contributed to the OSR?
 The OSR has been built by the [OHBM Open Science Special Interest Group (OS-SIG)](https://ossig.netlify.app/), and the generous support of our team of  [volunteers](volunteers.md) who responded to our call for contributors. We are indebted to the them for the time and energy they have brought to this project.
 
-You can join the team for next year by running for election into the OS-SIG, or staying close to OS-SIG activities and reaching out as we start to build again next year! You can find out more about OS-SIG operations by joining the OSR on [June](schedule.html), where you can ask us anything!
+You can join the team for next year by running for election into the OS-SIG, or staying close to OS-SIG activities and reaching out as we start to build again next year! You can find out more about OS-SIG operations by joining the OSR on [June](/schedule/), where you can ask us anything!
 
 <!-- <div id='sponsors'></div><br>
 ### Who has sponsored the OSR?

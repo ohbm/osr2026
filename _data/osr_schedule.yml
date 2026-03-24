@@ -1,0 +1,103 @@
+days:
+  - id: "06-15"
+    tab_label: June 15
+    heading: June 15, Monday
+    entries:
+      - session_id: opening-bids-updates
+      - session_id: buffet-open-science
+      - session_id: sharing-data-across-borders
+      - session_id: missing-large-data
+      - session_id: preregistration-creativity
+      - session_id: communicate-science
+  - id: "06-16"
+    tab_label: June 16
+    heading: June 16, Tuesday
+    entries:
+      - session_id: llms-open-science
+      - id: panel-slot-tbd
+        title: "Panel Slot: Title TBD"
+        start_time: "09:15"
+        end_time: "10:30"
+        gcal_start: "20260616T091500"
+        gcal_end: "20260616T103000"
+        page_url: /schedule/
+      - id: no-cap
+        title: No-Cap (SACIN)
+        start_time: "12:15"
+        end_time: "13:15"
+        gcal_start: "20260616T121500"
+        gcal_end: "20260616T131500"
+        page_url: /schedule/
+      - id: reproducibility-challenge
+        title: Reproducibility Challenge
+        start_time: "13:30"
+        end_time: "14:30"
+        gcal_start: "20260616T133000"
+        gcal_end: "20260616T143000"
+        page_url: /schedule/
+      - id: big-think
+        title: Big Think
+        start_time: "15:15"
+        end_time: "17:15"
+        gcal_start: "20260616T151500"
+        gcal_end: "20260616T171500"
+        page_url: /schedule/
+  - id: "06-17"
+    tab_label: June 17
+    heading: June 17, Wednesday
+    entries:
+      - id: emergent-1
+        title: Emergent Session 1
+        start_time: "08:00"
+        end_time: "09:00"
+        gcal_start: "20260617T080000"
+        gcal_end: "20260617T090000"
+        page_url: /emergent/
+      - session_id: ten-years-ossig
+      - session_id: career-journeys
+      - id: emergent-2
+        title: Emergent Session 2
+        start_time: "13:45"
+        end_time: "14:45"
+        gcal_start: "20260617T134500"
+        gcal_end: "20260617T144500"
+        page_url: /emergent/
+      - id: software-demos
+        title: Software Demonstrations
+        start_time: "15:45"
+        end_time: "17:00"
+        gcal_start: "20260617T154500"
+        gcal_end: "20260617T170000"
+        page_url: /schedule/
+  - id: "06-18"
+    tab_label: June 18
+    heading: June 18, Thursday
+    entries:
+      - id: emergent-3
+        title: Emergent Session 3
+        start_time: "09:15"
+        end_time: "10:15"
+        gcal_start: "20260618T091500"
+        gcal_end: "20260618T101500"
+        page_url: /emergent/
+      - id: emergent-4
+        title: Emergent Session 4
+        start_time: "11:15"
+        end_time: "12:15"
+        gcal_start: "20260618T111500"
+        gcal_end: "20260618T121500"
+        page_url: /emergent/
+      - id: emergent-5
+        title: Emergent Session 5
+        start_time: "12:30"
+        end_time: "13:30"
+        gcal_start: "20260618T123000"
+        gcal_end: "20260618T133000"
+        page_url: /emergent/
+      - id: emergent-6
+        title: Emergent Session 6
+        start_time: "13:45"
+        end_time: "14:45"
+        gcal_start: "20260618T134500"
+        gcal_end: "20260618T144500"
+        page_url: /emergent/

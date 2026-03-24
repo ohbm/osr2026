@@ -4,7 +4,7 @@
 title: Home
 
 # Short description of your site
-description: Open Science Room 2025
+description: Open Science Room 2026
 
 # --- Local development options ---
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
@@ -29,7 +29,6 @@ navbar-links:
   OSSIG: "https://ossig.netlify.app/"
   Program:
     - Schedule: "schedule"
-    #- Schedule: "schedule-PLACEHOLDER"
     - Panels: "panel"
     - Emergent Sessions: "emergent"
     - Table Talks: "tabletalk"
@@ -88,9 +87,10 @@ social-network-links:
 
   facebook: openscience.ohbm
   github: ohbm
-  twitter: OhbmOpen
+  x: OhbmOpen
+  bluesky: ohbmofficial.bsky.social
 #  reddit: yourname
-#  linkedin: Name
+#  linkedin: https://www.linkedin.com/company/your-page/
   email: "ohbmopenscience@gmail.com"
 #  email: "ohbm.osr@gmail.com" #this email is still used by past OSR chairs 
 #  xing: yourname
@@ -112,7 +112,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "ohbm.github.io/osr2025"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "ohbm.github.io/osr2026"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Web Statistics Section --- #
 
@@ -122,39 +122,7 @@ url-pretty: "ohbm.github.io/osr2025"  # eg. "deanattali.com/beautiful-jekyll"
 # Fill in your Google Analytics ID to track your website using GA
 #google_analytics: ""
 
-# Google Tag Manager ID
-#gtm: ""
-
-# Matomo (aka Piwik) Web statistics
-# Uncomment the following section to enable Matomo. The opt-out parameter controls
-# whether or not you want to allow users to opt out of tracking.
-
-#matomo:
-#  site_id: "9"
-#  uri: "demo.wiki.pro"
-#  opt-out: true
-
 # --- Comments --- #
-
-# Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-# disqus: "OSSIG-OSR"
-
-# If you want to use JustComments fill with the API Key
-#just-comments: "ABCD-EFGH-IJKL"
-
-# To use Facebook Comments, fill in a Facebook App ID
-# fb_comment_id: ""
-
-# To use Staticman comments, fill in repository, branch, and endpoint
-staticman:
-  repository : # GitHub username/repository eg. "daattali/beautiful-jekyll"
-  branch     : master # If you're not using `master` branch, then you also need to update the `branch` parameter in `staticman.yml`
-  endpoint   : # URL of your own deployment, with a trailing slash (will fallback to a public GitLab instance) eg. https://<your-api>/v3/entry/github/
-  reCaptcha:
-    # reCaptcha for Staticman (OPTIONAL, but recommended for spam protection)
-    # If you use reCaptcha, you must also set these parameters in staticman.yml
-    siteKey  : # Use your own site key, you need to apply for one on Google
-    secret   : # ENCRYPT your password by going to https://staticman3.herokuapp.com/v3/encrypt/<your-site-secret>
 
 # --- Misc --- #
 
@@ -175,7 +143,7 @@ date_format: "%B %-d, %Y"
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "Europe/Amsterdam"
+timezone: "Europe/Paris"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/

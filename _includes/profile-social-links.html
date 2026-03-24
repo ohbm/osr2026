@@ -1,0 +1,58 @@
+{% assign x_handle = include.person.X | default: include.person.Twitter | default: include.person.twitter %}
+{% if x_handle %}
+  {% assign x_handle = x_handle | remove_first: '@' %}
+  {% assign x_url = x_handle %}
+  {% unless x_url contains '://' %}
+    {% assign x_url = 'https://x.com/' | append: x_handle %}
+  {% endunless %}
+  <a target="_blank" rel="noopener" href="{{ x_url }}" title="X">
+    <span class="fa-stack fa-lg" style="vertical-align: middle; margin-left:4px; margin-right:4px;">
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <img src="{{ '/img/social/x.svg' | relative_url }}" alt="" style="position: absolute; top: 50%; left: 50%; width: 0.8em; height: 0.8em; transform: translate(-50%, -50%); filter: brightness(0) invert(1);" />
+    </span>
+  </a>
+{% endif %}
+
+{% assign bluesky_handle = include.person.Bluesky | default: include.person.bluesky %}
+{% if bluesky_handle %}
+  {% assign bluesky_handle = bluesky_handle | remove_first: '@' %}
+  {% assign bluesky_url = bluesky_handle %}
+  {% unless bluesky_url contains '://' %}
+    {% assign bluesky_url = 'https://bsky.app/profile/' | append: bluesky_handle %}
+  {% endunless %}
+  <a target="_blank" rel="noopener" href="{{ bluesky_url }}" title="Bluesky">
+    <span class="fa-stack fa-lg" style="vertical-align: middle; margin-left:4px; margin-right:4px;">
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <img src="{{ '/img/social/bluesky.svg' | relative_url }}" alt="" style="position: absolute; top: 50%; left: 50%; width: 0.88em; height: 0.88em; transform: translate(-50%, -50%); filter: brightness(0) invert(1);" />
+    </span>
+  </a>
+{% endif %}
+
+{% assign github = include.person.Github | default: include.person.GitHub | default: include.person.github %}
+{% if github %}
+  {% assign github_url = github %}
+  {% unless github_url contains '://' %}
+    {% assign github_url = 'https://github.com/' | append: github %}
+  {% endunless %}
+  <a target="_blank" rel="noopener" href="{{ github_url }}" title="GitHub">
+    <i class="fa fa-github fa-2x" style="position: relative; text-indent:0px; vertical-align: middle; margin-left:4px; margin-right:4px;"></i>
+  </a>
+{% endif %}
+
+{% assign linkedin = include.person.LinkedIn | default: include.person.Linkedin | default: include.person.linkedin %}
+{% if linkedin %}
+  {% assign linkedin_url = linkedin %}
+  {% unless linkedin_url contains '://' %}
+    {% assign linkedin_url = 'https://www.linkedin.com/in/' | append: linkedin %}
+  {% endunless %}
+  <a target="_blank" rel="noopener" href="{{ linkedin_url }}" title="LinkedIn">
+    <i class="fa fa-linkedin fa-2x" style="position: relative; text-indent:0px; vertical-align: middle; margin-left:4px; margin-right:4px;"></i>
+  </a>
+{% endif %}
+
+{% assign website = include.person.Website | default: include.person.website %}
+{% if website %}
+  <a target="_blank" rel="noopener" href="{{ website }}" title="Website">
+    <i class="fa fa-external-link-square fa-2x" style="position: relative; top: 0px; text-indent:0px; vertical-align: middle; margin-left:4px; margin-right:4px;"></i>
+  </a>
+{% endif %}

@@ -6,17 +6,26 @@
           {%- for link in site.social-network-links -%}
             {%- assign curkey = link[0] -%}
             {%- assign element = site.data.SocialNetworks[curkey] -%}
+            {%- assign social_value = site.social-network-links[curkey] -%}
             <li>
             {%- if curkey == 'rss' -%}
               <a href="{{ '/feed.xml' | relative_url }}" title="{{ element.name }}">
             {%- elsif curkey == 'yelp' -%}
-              <a href="https://{{ site.social-network-links[curkey] }}.yelp.com" title="{{ element.name }}">
+              <a href="https://{{ social_value }}.yelp.com" title="{{ element.name }}">
+            {%- elsif social_value contains '://' or social_value contains 'mailto:' or social_value contains 'tel:' -%}
+              <a href="{{ social_value }}" title="{{ element.name }}">
             {%- else -%}
-              <a href="{{element.baseURL}}{{ site.social-network-links[curkey] }}" title="{{ element.name }}">
+              <a href="{{ element.baseURL }}{{ social_value }}" title="{{ element.name }}">
             {%- endif -%}
                 <span class="fa-stack fa-lg" aria-hidden="true">
                   <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa {{ element.icon }} fa-stack-1x fa-inverse"></i>
+                  {%- if element.icon -%}
+                    <i class="fa {{ element.icon }} fa-stack-1x fa-inverse"></i>
+                  {%- elsif element.icon_image -%}
+                    <img src="{{ element.icon_image | relative_url }}" alt="" style="position: absolute; top: 50%; left: 50%; width: 0.8em; height: 0.8em; transform: translate(-50%, -50%); filter: brightness(0) invert(1);" />
+                  {%- elsif element.icon_text -%}
+                    <span class="fa-stack-1x fa-inverse" style="font-family: sans-serif; font-size: 0.75em; font-weight: 700; line-height: 2.05em;">{{ element.icon_text }}</span>
+                  {%- endif -%}
                 </span>
                 <span class="sr-only">{{ element.name }}</span>
               </a>
@@ -35,13 +44,6 @@
       &nbsp;&bull;&nbsp;
       <a href="{{ '' | absolute_url }}">{{ site.url-pretty }}</a>
       {% endif %}
-
-      {% if site.matomo %}
-        {% if site.matomo.opt-out %}
-          &nbsp;&bull;&nbsp;
-          <a href="http://{{- site.matomo.uri -}}/index.php?module=CoreAdminHome&action=optOut" target="_blank" class="text_muted">Do-not-Track</a>
-        {% endif %}
-      {% endif%}
       </p>
           <!-- Please don't remove this, keep my open source work credited :) -->
     <p class="theme-by text-muted">

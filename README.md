@@ -2,31 +2,31 @@
 
 This is the GitHub repository for the OHBM Open Science Room (OSR).
 
-This repository hosts the code for [the OSR2025 website](https://ohbm.github.io/osr2025).
+This repository hosts the code for [the OSR2026 website](https://ohbm.github.io/osr2026).
 
 Below we provide basic info and links to more information. 
 
 ### Who are we?
 
-We are part of the <a href="https://ossig.netlify.com/">Open Science Special Interest Group</a>(OSSIG) of the <a href="https://www.humanbrainmapping.org/i4a/pages/index.cfm?pageid=3267&pageid=1">Organization for Human Brain Mapping</a>.
+We are part of the <a href="https://ossig.netlify.com/">Open Science Special Interest Group</a>(OSSIG) of the <a href="https://humanbrainmapping.org/">Organization for Human Brain Mapping</a>.
 
 ### What are we doing?
 
-We are organizing, among other events, the Open Science Room at the <a href="https://www.humanbrainmapping.org/i4a/pages/index.cfm?pageid=4114" target="_blank">2025 meeting of the OHBM</a>.
+We are organizing, among other events, the Open Science Room at the <a href="https://humanbrainmapping.org/OHBM2026/" target="_blank">2026 meeting of the OHBM</a>.
 
 ### Get involved
 
-All information is available on <a href="https://ohbm.github.io/osr2025" target="_blank">our website</a>.
+All information is available on <a href="https://ohbm.github.io/osr2026" target="_blank">our website</a>.
 
 ### Contact us
 
-Feel free to <a href="https://ohbm.github.io/osr2025/contact/" target="_blank">reach out to us</a>!
+Feel free to <a href="https://ohbm.github.io/osr2026/contact/" target="_blank">reach out to us</a>!
 
 
 ---
 
 ### Credit
-The [OSR website](https://ohbm.github.io/osr2025) was built using the [Beautiful Jekyll](https://deanattali.com/beautiful-jekyll/) theme by [Dean Attali](https://deanattali.com/).
+The [OSR website](https://ohbm.github.io/osr2026) was built using the [Beautiful Jekyll](https://deanattali.com/beautiful-jekyll/) theme by [Dean Attali](https://deanattali.com/).
 
 
 #### Instructions for building website (these must be run prior to uploading onto GH)

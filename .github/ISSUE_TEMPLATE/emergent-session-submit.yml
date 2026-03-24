@@ -87,7 +87,7 @@ body:
     id: terms
     attributes:
       label: Agreement to Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://ohbm.github.io/osr2025/osr_coc/).
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://ohbm.github.io/osr2026/osr_coc/).
       options:
         - label: I agree to follow OSR's Code of Conduct
           required: true

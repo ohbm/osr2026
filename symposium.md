@@ -4,20 +4,22 @@ title: Open Science Symposium
 ---
 
 ## Share it all: challenges in reproducibility from data acquisition to management and analysis 
-#### WHEN: 15:45-17:00 (GMT+10), June 27 (Friday)
-#### LOCATION: M4
+#### WHEN: To be announced for 2026
+#### LOCATION: To be announced
+
+The current 2026 OSR program does not yet list a dedicated symposium slot under this title, so the timing and room details for this page are still pending confirmation.
 
 Under the requests of many journals and funding bodies, our science is becoming more and more open and reproducible. With the increased adoption of open scientific practices, new challenges emerge, from cultural and ethical issues to practical issues in dealing with those steps of our scientific journey that are still not open or not completely reproducible.
 Making our science open can be time consuming and requires skills that might not be part of our academic curricula yet - and that adds to the challenges of junior and early career researchers. Data availability and accessibility are fundamental principles to reproducible science but they clash against national and international legislation on data protection and the equally fundamental principle of individuals’ protection.
 Closed-source or vendor-specific methods to create that data make it hard to obtain complete reproducibility of the scientific process, and advanced analyses that can take the form of non-transparent, black, boxes, lower the chances of reproducing results.
-These are the topics that we will address in this symposium, organised by the Open Science SIG. Specifically, we will address the four following questions:
+These are the topics that we will address in this symposium, organised by the Open Science SIG. Specifically, we will address the following four questions:
 1. How do we survive academia as (junior and early career researcher) open scientists?
 2. How do we make (fMRI) data acquisition open and reproducible?
 3. How do we share data in a way that keeps privacy but allows access?
 4. How do we maximize reusability and reproducibility of our analyses (especially in AI)?
 
 
-### Featured Talks: 
+### Featured Talks
 ## Breaking Barriers: A Practical Guide to Thriving as Open Scientists in Neuroimaging
 #### Speaker: Nikhil Parag Bhawat
 
@@ -197,7 +199,5 @@ Open science is crucial for advancing AI applications in neuroscience and medici
         </td>
     </tr>
 </table> -->
-
-
 
 

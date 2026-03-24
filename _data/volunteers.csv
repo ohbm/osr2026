@@ -1,4 +1,24 @@
-Name,Title,Pronouns,Job,Affiliation,ShortBio,Website,Twitter,Github
-"Johanna Bayer,,She/her,Researcher/PhD candidate,The University of Melbourne,""Johanna, originally from Munich, Germany, has a background in Psychology, Neuroscience and Computer Science. She is interested in Computational Psychology and the use of machine learning techniques on Neuroimaging data to study depression. A second interest lies in dealing with scanner effects in open Neuroimaging datasets resulting from pooling data across studies."",,likeajumprope,likeajumprope"
-Rotem Botvinik-Nezer,Dr,She/her,Postdoctoral researcher,"Dartmouth College, Hanover, NH, USA","Rotem is a postdoctoral researcher at Dartmouth College. Last year she completed her PhD in neuroscience at Tel Aviv University. Her current research focuses on how beliefs and expectations are shaped and in turn influence behavior and physiology. She is also active in open-science-related research, for example the NARPS project (https://www.narps.info/).",,rotembot,rotemb9
-Sin Kim,Mr,He/Him,PhD Student,"Korea Advanced Institute of Science and Technology, Daejeon, Korea",Computer science major learning neuroimaging data analysis to study adolescent development and psychiatry.,,,AKSoo
+Section,SortOrder,Name,Title,Pronouns,Job,Affiliation,ShortBio,Website,Twitter,Bluesky,LinkedIn,Github,MemberType,Committee,Email
+OSSIG Executive,01,Muriah Wheelock,Dr.,,OS SIG Chair,"Assistant Professor, Washington University in St. Louis","Liaison to the Council. Full member.",,,muriahwheelock.bsky.social,,WheelockLab,Full member,Liaison to the Council,mdwheelock@wustl.edu
+OSSIG Executive,02,Eva van Heese,,,OS SIG Secretary,Amsterdam University Medical Centre,"Student member.",,,,,evavanheese,Student member,,e.vanheese@amsterdamumc.nl
+OSSIG Executive,03,Veronica Diveica,,,OS SIG Treasurer,Montreal Neurological Institute,"ComCom. Student member.",,DiveicaV,,,DiveicaV,Student member,ComCom,veronicadiveica@gmail.com
+OSSIG Executive,04,Johanna Bayer,,,OS SIG Chair-Elect,"Donders Institute for Brain, Cognition and Behaviour, Netherlands; soon: McGill and MNI, Canada","Awards Committee. Student member.",,likeajumprope,,,likeajumprope,Student member,Awards Committee,hannabayer.89@gmail.com
+OSSIG Executive,05,Nikhil Bhagwat,Dr.,,OS SIG Secretary-Elect,McGill University,"Full member.",,,,,,Full member,,nikhil.bhagwat@mcgill.ca
+OSSIG Executive,06,Moses Sokunbi,Dr.,,OS SIG Treasurer-Elect,"Faculty of Health and Life Sciences, De Montfort University, UK","Full member.",,,,,,Full member,,moses.sokunbi@dmu.ac.uk
+OSR Leadership,01,James Kent,Dr.,,OSR Chair,"Staff Scientist, University of Texas at Austin","Full member.",,SudoNeuroSci,,,jdkent,Full member,,jdk3232@eid.utexas.edu
+OSR Leadership,02,Gaelle Leroux,Dr.,,OSR Chair-Elect,"CNRS, Lyon Neuroscience Research Centre, France","Full member.",,,gaellecnrs.bsky.social,,gaelleroux,Full member,,gaelle.leroux@cnrs.fr
+OSR Leadership,03,Chloe Page,Dr.,,OSR Chair-Elect,"Faculty, University of Colorado","Full member.",,,,,chloeliza,Full member,,chloe.page@cuanschutz.edu
+Program and Community Leads,01,Ashley York,,,Hackathon Co-Chair,University of Queensland,"Student member.",,AshYork1,,,ashYork,Student member,,yorkashley49@gmail.com
+Program and Community Leads,02,Thuy Dao,,,Hackathon Co-Chair,The University of Queensland,"Student non-member.",,,,,,Student non-member,,thanhthuy.dao@uq.edu.au
+Program and Community Leads,03,SungHo Lee,Dr.,,Hackathon Co-Chair-Elect,"Faculty of Department of Neurology, University of North Carolina at Chapel Hill","Full member.",,shleevet,,,dvm-shlee,Full member,,shlee@unc.edu
+Program and Community Leads,04,Felix Hoffstaedter,Dr.,,Hackathon Co-Chair-Elect,"Institute for Neuroscience and Medicine, Research Centre Julich","Full member.",,,,,,Full member,,f.hoffstaedter@fz-juelich.de
+Program and Community Leads,05,Steven Meisler,,,Community Liaison Officer,University of Pennsylvania,"Student member.",,StevenMeisler,,,smeisler,Student member,,steven.meisler@pennmedicine.upenn.edu
+Program and Community Leads,06,Belen Azofra,,,Local Liaison Officer,Universite Paris Cite,"Student non-member.",,,,,,Student non-member,,belen.azofra3@gmail.com
+Program and Community Leads,07,Achille Gillig,,,Local Liaison Officer,University of Bordeaux,"Student non-member.",,,,,,Student non-member,,achille.gillig@u-bordeaux.fr
+Program and Community Leads,08,Sungmin Ha,,,Hybridization Officer,Washington University in St. Louis,"Student member.",,SungMinHa1992,,,sungminha,Student member,,sungminha@wustl.edu
+Program and Community Leads,09,Marshall Xu,,,Hybridization Officer-Elect,The University of Queensland,"Student non-member.",,kmarshallxu,,,KMarshallX,Student non-member,,marshall.xu@uq.edu.au
+2026 Volunteers,01,Hanyi Li,,,Volunteer,University of Manchester,,,,,,,,,hanyi.li-2@student.manchester.ac.uk
+2026 Volunteers,02,Daisy Hu,,,Volunteer,University of Toronto,,,,,,,,,daisy.hu@mail.utoronto.ca
+2026 Volunteers,03,Dhivya Srinivasan,,,Volunteer,University of Pennsylvania,,,,,,,,,Dhivya.Srinivasan@pennmedicine.upenn.edu
+2026 Volunteers,04,Beatriz Arantes,,,Volunteer,,,,,,,,,,beatrizarantes8@gmail.com
+2026 Volunteers,05,Valentine Chirokoff,,,Volunteer,Deakin University,,,,,,,,,valentine.c@deakin.edu.au

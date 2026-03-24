@@ -17,9 +17,19 @@ github:
   icon: "fa-github"
 
 twitter:
-  name: "Twitter"
-  baseURL: "https://twitter.com/"
-  icon: "fa-twitter"
+  name: "X"
+  baseURL: "https://x.com/"
+  icon_image: "/img/social/x.svg"
+
+x:
+  name: "X"
+  baseURL: "https://x.com/"
+  icon_image: "/img/social/x.svg"
+
+bluesky:
+  name: "Bluesky"
+  baseURL: "https://bsky.app/profile/"
+  icon_image: "/img/social/bluesky.svg"
 
 reddit:
   name: "Reddit"
@@ -33,7 +43,7 @@ email:
 
 linkedin:
   name: "LinkedIn"
-  baseURL: "https://linkedin.com/in/"
+  baseURL: "https://www.linkedin.com/in/"
   icon: "fa-linkedin"
 
 xing:
