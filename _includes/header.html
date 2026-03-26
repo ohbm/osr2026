@@ -18,9 +18,9 @@
   ></div>
 {% endif %}
 
-<header class="header-section {% if page.bigimg %}has-img{% endif %}">
+<header class="header-section {% if page.bigimg %}has-img{% endif %}{% if page.homepage_registration_callout %} homepage-registration-header{% endif %}">
 {% if page.bigimg %}
-<div class="big-img intro-header">
+<div class="big-img intro-header{% if page.homepage_registration_callout %} homepage-registration-hero{% endif %}">
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
@@ -42,6 +42,18 @@
       </div>
     </div>
   </div>
+  {% if page.homepage_registration_callout %}
+  <div class="homepage-registration-overlay">
+    <a class="registration-card" href="/register/">
+      <div class="registration-card-copy">
+        <span class="registration-card-kicker">OSR 2026 Registration Open!</span>
+        <h3 class="registration-card-title">Register and show your support for the Open Science Room</h3>
+        <p class="registration-card-description">Register now to join the OHBM 2026 Open Science Room and receive event updates.</p>
+      </div>
+        <span class="registration-card-button">Go to Registration</span>
+    </a>
+  </div>
+  {% endif %}
   <span class='img-desc'></span>
 </div>
 {% endif %}

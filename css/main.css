@@ -1371,3 +1371,178 @@ time.start-time, time.end-time {
   }
 }
 /* SCHEDULE END */
+
+/* HOME PAGE REGISTRATION CALLOUT BEGIN */
+.registration-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 28px 32px;
+  border-radius: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  background:
+    radial-gradient(circle at top right, rgba(255, 255, 255, 0.26) 0, rgba(255, 255, 255, 0) 32%),
+    linear-gradient(135deg, #05323F 0%, #1F5C7A 52%, #676AC2 100%);
+  box-shadow: 0 20px 42px rgba(5, 50, 63, 0.20);
+  color: #FFFFFF;
+  overflow: hidden;
+  position: relative;
+  text-decoration: none;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+.registration-card:hover,
+.registration-card:focus {
+  color: #FFFFFF;
+  text-decoration: none;
+  transform: translateY(-2px);
+  box-shadow: 0 24px 48px rgba(5, 50, 63, 0.24);
+}
+
+.registration-card-copy {
+  max-width: 700px;
+}
+
+.registration-card-kicker {
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 6px 12px;
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  border-radius: 999px;
+  background-color: rgba(255, 255, 255, 0.16);
+  color: #FFFFFF;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.registration-card-title {
+  margin: 0 0 10px;
+  color: #FFFFFF;
+  font-size: 34px;
+  line-height: 1.1;
+}
+
+.registration-card-description {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.92);
+  font-size: 18px;
+  line-height: 1.55;
+}
+
+.registration-card-action {
+  min-width: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 18px;
+  border-radius: 18px;
+  background-color: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(2px);
+}
+
+.registration-card-button {
+  display: inline-block;
+  padding: 13px 18px;
+  border-radius: 999px;
+  background-color: #FFFFFF;
+  color: #05323F;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+}
+
+.registration-card-note {
+  color: rgba(255, 255, 255, 0.90);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.homepage-registration-overlay {
+  margin: 16px auto 0;
+  max-width: 540px;
+  padding: 0 16px;
+}
+
+@media only screen and (min-width: 992px) {
+  .homepage-registration-header .intro-header.big-img {
+    min-height: 430px;
+  }
+
+  .homepage-registration-overlay {
+    position: absolute;
+    top: 50%;
+    right: 3%;
+    width: min(360px, 31vw);
+    transform: translateY(-50%);
+    z-index: 3;
+    margin: 0;
+    max-width: none;
+    padding: 0;
+  }
+
+  .homepage-registration-overlay .registration-card {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+    padding: 24px 24px 22px;
+  }
+
+  .homepage-registration-overlay .registration-card-title {
+    font-size: 25px;
+  }
+
+  .homepage-registration-overlay .registration-card-description {
+    font-size: 16px;
+    line-height: 1.45;
+  }
+
+  .homepage-registration-overlay .registration-card-action {
+    width: 100%;
+    min-width: 0;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .homepage-registration-overlay {
+    right: 5.5%;
+    width: min(460px, 32vw);
+  }
+
+  .homepage-registration-overlay .registration-card-title {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .registration-card {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px 22px;
+  }
+
+  .registration-card-title {
+    font-size: 28px;
+  }
+
+  .registration-card-description {
+    font-size: 16px;
+  }
+
+  .registration-card-action {
+    width: 100%;
+  }
+
+  .homepage-registration-overlay {
+    position: static;
+    margin: 16px auto 0;
+    padding: 0 16px;
+  }
+}
+/* HOME PAGE REGISTRATION CALLOUT END */
