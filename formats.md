@@ -3,7 +3,7 @@ layout: page
 title: OSR Session Formats
 ---
 
-{% assign panel_sessions = site.data.osr_sessions | where_exp: "session", "session.category == 'roundtable' or session.category == 'panel'" | sort: "sort_order" %}
+{% assign scheduled_sessions = site.data.osr_sessions | sort: "sort_order" %}
 {% assign table_talks = site.data.osr_sessions | where: "category", "tabletalk" | sort: "sort_order" %}
 
 OSR will have one of the following formats:
@@ -54,8 +54,10 @@ Questions from the audience are encouraged (via chat feature if virtual) and wil
 
 <p align="justify"> In the 2026 OSR, the named round-table and panel sessions include:</p>
 <ol>
-{% for session in panel_sessions %}
+{% for session in scheduled_sessions %}
+  {% if session.category == "roundtable" or session.category == "panel" %}
   <li>{% if session.category == "roundtable" %}OSR Round Table{% else %}OSR Panel{% endif %}: {{ session.title }}</li>
+  {% endif %}
 {% endfor %}
 </ol>
 <p align="justify"> If you have any question regarding these sessions or would like to be featured, please feel free to contact us at ohbmopenscience@gmail.com.</p>

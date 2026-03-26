@@ -94,7 +94,7 @@ body:
   - type: checkboxes
     id: share
     attributes:
-      label: Agreement to Recording and Disemmination
+      label: Agreement to Recording and Dissemination
       description: By submitting this issue, you agree to let us record the session and upload it our YouTube channel.
       options:
         - label: I agree to record and diseminate this session on YouTube.
