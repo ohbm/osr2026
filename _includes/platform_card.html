@@ -1,4 +1,4 @@
 {% assign p = include.platform %}
 <h4>{{ p.name }}</h4>
-<a href="{{ p.url }}" target="_blank" rel="noopener"><img src="{{ p.logo }}" alt="{{ p.name }}" align="right" width="{{ p.logo_width }}" style="margin:10px 10px;"></a>
+<a href="{{ p.url }}" target="_blank" rel="noopener"><img src="{{ p.logo | relative_url }}" alt="{{ p.name }}" align="right" width="{{ p.logo_width }}" style="margin:10px 10px;"></a>
 <p align="justify">{{ p.description }}</p>

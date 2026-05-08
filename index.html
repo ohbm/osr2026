@@ -35,7 +35,7 @@ bigimg:
 	      Emergent sessions can be booked via <a href="{{ '/submit/' | relative_url }}">contacting us</a>.
           </p>
           <div style="text-align: center;">
-              <a href="{{ '/formats/' | relative_url }}"><img src="img/osr_themes_eao_geg.svg" alt="osrthemes" width="70%"></a>
+              <a href="{{ '/formats/' | relative_url }}"><img src="{{ '/img/osr_themes_eao_geg.svg' | relative_url }}" alt="osrthemes" width="70%"></a>
           </div>
 
           <p align="justify">
@@ -75,7 +75,7 @@ bigimg:
           <div class="icons">
             <p align="center">
               {% for sponsor in site.data.sponsors %}
-              <a href="{{ sponsor.url }}" target="_blank" rel="noopener"><img src="{{ sponsor.logo }}" alt="{{ sponsor.name }}" width="{{ sponsor.logo_width }}" style="margin:8px 8px;"></a>
+              <a href="{{ sponsor.url }}" target="_blank" rel="noopener"><img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }}" width="{{ sponsor.logo_width }}" style="margin:8px 8px;"></a>
               {% endfor %}
             </p>
           </div>
