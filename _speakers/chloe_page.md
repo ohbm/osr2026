@@ -1,4 +1,5 @@
 ---
+Photo: 
 Name: Chloe Page
 Title: Assistant Professor
 Pronouns:

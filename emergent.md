@@ -18,12 +18,16 @@ The current schedule lists six emergent-session time slots. At the moment, only 
 ### Emergent Session 1
 When: 08:00-09:00 CEST (UTC+2) | June 17, 2026 (Wednesday)
 
+[Watch on Crowdcast](https://www.crowdcast.io/c/osr-2026-emergent-1){:target="_blank"}
+
 Topic and host to be announced.
 
 ---
 
 ### Emergent Session 2
 When: 13:45-14:45 CEST (UTC+2) | June 17, 2026 (Wednesday)
+
+[Watch on Crowdcast](https://www.crowdcast.io/c/osr-2026-emergent-2){:target="_blank"}
 
 Topic and host to be announced.
 
@@ -32,12 +36,16 @@ Topic and host to be announced.
 ### Emergent Session 3
 When: 09:15-10:15 CEST (UTC+2) | June 18, 2026 (Thursday)
 
+[Watch on Crowdcast](https://www.crowdcast.io/c/osr-2026-emergent-3){:target="_blank"}
+
 Topic and host to be announced.
 
 ---
 
 ### Emergent Session 4
 When: 11:15-12:15 CEST (UTC+2) | June 18, 2026 (Thursday)
+
+[Watch on Crowdcast](https://www.crowdcast.io/c/osr-2026-emergent-4){:target="_blank"}
 
 Topic and host to be announced.
 
@@ -46,11 +54,15 @@ Topic and host to be announced.
 ### Emergent Session 5
 When: 12:30-13:30 CEST (UTC+2) | June 18, 2026 (Thursday)
 
+[Watch on Crowdcast](https://www.crowdcast.io/c/osr-2026-emergent-5){:target="_blank"}
+
 Topic and host to be announced.
 
 ---
 
 ### Emergent Session 6
 When: 13:45-14:45 CEST (UTC+2) | June 18, 2026 (Thursday)
+
+[Watch on Crowdcast](https://www.crowdcast.io/c/osr-2026-emergent-6){:target="_blank"}
 
 Topic and host to be announced.

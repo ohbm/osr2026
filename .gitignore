@@ -15,3 +15,8 @@ beautiful-jekyll-theme-*.gem
 .jekyll-cache
 
 reference_docs
+
+vendor
+.codex
+bin
+.bundle

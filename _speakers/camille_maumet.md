@@ -1,4 +1,5 @@
 ---
+Photo: 
 Name: Camille Maumet
 Title:
 Pronouns:

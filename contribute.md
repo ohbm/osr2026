@@ -23,7 +23,7 @@ and you are under no obligation to agree to any work at this stage!
 <div id='host'></div>
 ## OSR Hosts
 
-OSR Hosts will be online to welcome speakers and guests in the virtual OSR space in your own timezone. We would also love for you to be involved in designing our opening and closing events, overseeing the use of the multipurpose virtual OSR space, chairing sessions, moderating chat, and ensuring that we are reaching our goals for accessibility. The [OS-SIG and OSR Co-Chairs](https://ossig.netlify.com/) will help build and support your efforts all the way.
+OSR Hosts will be online to welcome speakers and guests in the virtual OSR space in your own timezone. We would also love for you to be involved in designing our opening and closing events, overseeing the use of the multipurpose virtual OSR space, chairing sessions, moderating chat, and ensuring that we are reaching our goals for accessibility. The [OS-SIG and OSR Co-Chairs](https://ossig.netlify.app/) will help build and support your efforts all the way.
 
 <div id='officehours'></div>
 ## Open Research Advisor

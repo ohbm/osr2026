@@ -1,0 +1,173 @@
+opening-bids-updates:
+  moderators:
+    - James Kent
+
+sharing-data-across-borders:
+  panelists:
+    - name: Anita Jwa
+      talk_title: "Empirical Analyses of Privacy Risks in Neuroimaging Data Sharing"
+      talk_summary: >-
+        The open science movement in neuroimaging has substantially expanded the scale and scope of
+        shared research data, accelerating progress in understanding the function of the human brain
+        in both healthy and disease states. This talk outlines the major privacy concerns associated
+        with neuroimaging data and presents empirical analyses examining two frequently cited risks:
+        the potential reidentification of neuroimaging data through face-recognition algorithms, and
+        the possibility of decoding individuals' mental states or predicting future behaviors using
+        machine learning. By clarifying what current evidence does—and does not—support, the talk
+        aims to inform more balanced governance approaches that protect data privacy while preserving
+        the substantial scientific benefits of open neuroscience.
+    - name: Udunna Anazodo
+      talk_title: "Implementing Open Neuroimaging in Africa"
+      talk_summary: >-
+        An overview of the challenges and opportunities of open neuroscience in advancing brain
+        imaging science and practice in Africa.
+    - name: Claude Bajada
+      talk_title: "Open Brains, Tight Laws: The GDPR and Europe's Next Steps"
+      talk_summary: >-
+        Open and FAIR neuroimaging have become central to contemporary brain research, yet for
+        European researchers these ambitions collide head-on with the General Data Protection
+        Regulation (GDPR). Building on recent analyses of neuroimaging data, this talk argues that,
+        as defined within the current GDPR, MRI data are intrinsically personal and almost never
+        genuinely anonymisable. Current open-repository practices, largely rooted in US
+        de-identification standards, sit uneasily within the EU's rights-based data protection
+        model. This presentation discusses the implications of both current law and the European
+        Commission's proposed Digital Omnibus simplification for practical neuroimaging in European
+        neuroscience and for neuroscience elsewhere that interfaces with Europe.
+    - name: Cyril Pernet
+    - name: Oliver Gray
+      talk_title: "The Global Access, Use, and Impact of UK Biobank"
+      talk_summary: >-
+        Over the past two decades, UK Biobank has evolved into one of the world's most powerful
+        resources for advancing our understanding of human health. Its data are openly accessible to
+        academic and commercial researchers across the globe, enabling tens of thousands of scientists
+        to generate insights that are fed back into the resource—continually enriching its value.
+        This talk highlights how UK Biobank's access model fosters international collaboration,
+        showcasing examples of cross-border research and the impact of shared discoveries, as well as
+        the infrastructure, governance, and policy frameworks that underpin this success.
+  moderators:
+    - Gaëlle Leroux
+    - James Kent
+
+communicate-science:
+  panelists:
+    - name: Fernanda Ribeiro
+      talk_title: "The Talks I Can't Forget: Why Enthusiasm Matters"
+      talk_summary: >-
+        As a first-gen university student and academic, I struggled to feel like myself delivering
+        talks in a serious tone. What I eventually learned—through trial and error and watching the
+        speakers who stuck with me—was that enthusiasm isn't unprofessional: it's what makes science
+        communication both authentic and memorable. I'll share what made those talks stick with me
+        and why I think enthusiasm deserves a place in how we all communicate science.
+    - name: Ashley Tyrer
+      talk_title: "From Experts to Everyone: Making Science Accessible"
+      talk_summary: >-
+        One of the most vital components of successful science communication is knowing one's
+        audience. It is a common pitfall for many researchers to communicate their work in a
+        "by experts for experts" manner, which can inadvertently deter those who could learn the
+        most. This talk discusses the key aspects of making scientific communication accessible to a
+        broader audience across multiple formats, including blogging, podcasting, and social media.
+    - name: Yohan Yee
+      talk_title: "How Not to Communicate Your Science to a Broader Audience"
+      talk_summary: >-
+        A presentation of unexpected insights and surprises encountered when communicating science
+        to different audiences, ranging from elementary school children to specialist scientific
+        audiences.
+    - name: Tiffany Love
+      talk_title: "Bridging Neuroscience and Industry Communication"
+      talk_summary: >-
+        Effective communication between the scientific community and industry is necessary for
+        translating neuroscience research into real-world applications, yet it remains a persistent
+        challenge due to differences in goals, language, timelines, and incentive structures. This
+        talk explores how structural differences between academic and industrial environments shape
+        how information is interpreted and acted upon, and presents practical strategies for
+        communicating neuroscience to industry stakeholders in ways that enhance understanding and
+        facilitate implementation.
+  moderators:
+    - Chloe Page
+    - James Kent
+
+ten-years-ossig:
+  panelists:
+    - Cameron Craddock
+    - Camille Maumet
+    - Janine Bijsterbosch
+    - Koen Haak
+    - Lune Bellec
+    - Muriah Wheelock
+    - Nils Muhlert
+    - Stefano Moia
+  moderators:
+    - James Kent
+    - Johanna Bayer
+
+career-journeys:
+  panelists:
+    - name: Cameron Craddock
+      talk_title: "My Open Science Career"
+      talk_summary: >-
+        While responding to a question on a career panel at AACAP in 2014, one of my co-panelists
+        opined that I was overly optimistic about how successful junior scientists can be doing open
+        science. This was based on the slow-going institutional changes that are still needed to
+        fully recognize and compensate for open science contributions. I will discuss how
+        sustainability challenges in open science shaped my later research career and led to my
+        current career in industry, including questions about whether open science means everything
+        should be free for everyone and what service models can allow underlying tools to remain
+        free while still generating revenue.
+    - name: Cassandra Gould Van Praag
+      talk_title: "Open Science Brought Passion and Purpose to My Career"
+      talk_summary: >-
+        Open science showed me how community can be used to address an imbalance of power. In this
+        talk I will sketch out my timeline of engagement with open science, EDI, and community; how
+        the actions of others allowed me to explore my passion; and how much I love helping others
+        claim their power in this system.
+    - name: Stephanie Noble
+      talk_title: "Beyond the Degree: Career Paths and Collaborative Science for Early Career Researchers"
+      talk_summary: >-
+        Dr. Noble will reflect on how open, collaborative, and interdisciplinary science has formed
+        an integral part of her career journey as an early career researcher. Given the importance
+        of networking for unlocking career opportunities—whether across disciplines or outside of
+        academia—she will share practical strategies for cultivating relationships to support your
+        scientific journey wherever it might take you.
+    - name: Subapriya Suppiah
+      talk_title: "Imaging the Brain in the Open: From Neuroscience to Real-World Care"
+      talk_summary: >-
+        This talk traces an academic journey at the intersection of neuroscience, clinical
+        neuroimaging, and nuclear medicine, highlighting how multimodal and molecular imaging can
+        deepen the understanding of brain structure–function relationships while improving real-world
+        patient care. The talk reflects on open science as a lived practice—rooted in collaboration,
+        data sharing, cross-disciplinary partnerships, and building professional capacity in
+        neuroimaging—that strengthens research even within the constraints of clinical service and
+        academic medicine.
+  moderators:
+    - Chloe Page
+    - James Kent
+
+buffet-open-science:
+  panelists:
+    - Rotem Botvinik-Nezer
+    - Guillaume Sescousse
+    - Oscar Estebean
+    - Roberto Toro
+  moderators:
+    - Eva Van Heese
+    - Gaëlle Leroux
+
+missing-large-data:
+  moderators:
+    - Felix Hoffstaeder
+    - James Kent
+
+preregistration-creativity:
+  panelists:
+    - Marta Topor
+    - Justine Épinat-Duclos
+  moderators:
+    - Eva Van Heese
+    - Gaëlle Leroux
+
+llms-open-science:
+  panelists:
+    - Alejandro de la Vega
+  moderators:
+    - James Kent
+    - Johanna Bayer

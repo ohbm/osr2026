@@ -14,7 +14,7 @@ bigimg:
       <div class="text-justify">
           <h2>Welcome to the OSR!</h2>
 
-          <p align="justify">The <a href="https://ossig.netlify.com/">OS-SIG</a> Open Science Room (OSR) is a welcoming space dedicated to discussions and exchanges on pressing or innovative issues of Open Science in Neuroimaging or Open Science in general. It is part of the <a href="https://humanbrainmapping.org/">Organisation for Human Brain Mapping (OHBM)</a> annual meeting. </p>
+          <p align="justify">The <a href="https://ossig.netlify.app/">OS-SIG</a> Open Science Room (OSR) is a welcoming space dedicated to discussions and exchanges on pressing or innovative issues of Open Science in Neuroimaging or Open Science in general. It is part of the <a href="https://humanbrainmapping.org/">Organisation for Human Brain Mapping (OHBM)</a> annual meeting. </p>
           <p align="justify">The OSR aims to be a welcoming and inclusive space for discussion around open practices within neuroimaging and science more generally. Joining in with the activities of the OSR is a key opportunity to connect with others in the community, learn from each other, and start collaborations to build a more inclusive, transparent and future-ready scientific field.</p>
 
           <div class="homepage-spotlight-card">
@@ -64,73 +64,24 @@ bigimg:
               We'll additionally make a text-based Mattermost environment available for chats with speakers and each other.
               For informal social activities, a core part of a scientific conference, we'll use Gather.town, which was a great hit at the recent virtual OHBM Brainhack.
           </p>
-          <!--div style="text-align: center;"-->
-              <!--img src="img/OSR_platforms_v2.png" alt="osrplatforms"-->
-          <!--/div-->
-	      
-	      <h4>crowdcast</h4>
-	      <a href="https://www.crowdcast.io/" _target="_blank"><img src="img/crowdcast-logo.svg" alt="crowdcast" align="right" width="30%" style="margin:10px 10px;"></a>
-	      <p align="justify">
-              The OSR program will be broadcast via Crowdcast. To prepare, you can <a href="https://www.crowdcast.io/">create a free account</a>, and find out more about <a href="https://docs.crowdcast.io/en/articles/651701-attendee-quick-reference-guide" _target="_blank">how to attend a Crowdcast event</a>.
-              On the <a href="https://www.crowdcast.io/ossig2019" _target="_blank">OHBM OS-SIG's Crowdcast page</a>, you can access the list of all upcoming OSR events. Follow the account to receive event updates. Passwords to access the broadcasts will be emailed to <a href="{{ '/register/' | relative_url }}">registered</a> participants.
-	      </p>
-          
-	      <h4>mattermost</h4>
-	      <a href="https://mattermost.com/" _target="_blank"><img src="img/mattermost-logo.svg" alt="mattermost" align="right" width="10%" style="margin:10px 10px;"></a>
-	      <p align="justify">
-		Text-based chat on Mattermost (an open source equivalent of Slack) is part of the Open Science Room experience.
-                Please <a href="https://mattermost.brainhack.org/signup_email" _target="_blank">sign up here</a> and join the <a href="https://mattermost.brainhack.org/brainhack/channels/hbm-open-science-room" _target="_blank"><code>hbm-open-science-room</code></a> channel where we will be sharing information regularly.
-                To find out more about using Mattermost, have a look at this <a href="https://www.youtube.com/watch?v=eq4yEM5z5SY&list=PL-jqvaPsjQpMqnRgFEw_3fuGQbcVDTpaM&index=5" _target="_blank">Mattermost basics demo video</a> or their <a href="https://docs.mattermost.com/guides/user.html" _target="_blank">User Guide</a>.
-              </p>
-          
-	              
-	      <h4>youtube</h4>
-	      <a href="https://www.youtube.com/" _target="_blank"><img src="img/youtube-logo.svg" alt="youtube" align="right" width="10%" style="margin:10px 10px;"></a>
-	      <p align="justify">
-		      You can also watch the program, without participating in the events, via Youtube.
-		      All content will be posted to our <a href="https://www.youtube.com/channel/UChvSitFvqGDeA1y7MJs4CGQ" _target="_blank">OS-SIG Youtube Channel</a>. You can subscribe to the channel for event updates.
-	      </p>
 
-	      <h4>DouYu</h4>
-	      <a href="https://www.douyu.com/" _target="_blank"><img src="img/Douyu-logo_geg.svg" alt="youtube" align="right" width="10%" style="margin:10px 10px;"></a>
-	      <p align="justify">
-		      You can also watch the program, without participating in the events, via DouYu.
-		      All content will be posted to our <a href="https://v.douyu.com/author/E6djmK60BNw1" _target="_blank">OS-SIG DouYu Channel</a>. You can subscribe to the channel for event updates.
-	      </p>
-	      
+          {% for platform in site.data.platforms %}
+          {% include platform_card.html platform=platform %}
+          {% endfor %}
+
           <br>
 	      
-	  <h3>2026 OSR Sponsors</h3>
-	      <!-- <img src="img/sponsors/OSR_sponsors2023.svg" alt="osr" width="100%" style="margin:10px 10px;"> -->
-	      <div class="icons">
-		      <p align="center">
-			  <a href="https://corticallabs.com/" _target="_blank"><img src="img/sponsors/CorticalLabs_OSR_BrainHack.png" alt="osr" width="20%" style="margin:8px 8px;"></a>
-			  <a href="https://humanbrainmapping.org/" _target="_blank"><img src="img/sponsors/OHBM_logo.svg" alt="osr" width="15%" style="margin:8px 8px;"></a>
-        <!-- <a href="https://openneuro.org/" _target="_blank"><img src="img/sponsors/wellcomeCentre.svg" alt="osr" width="20%" style="margin:10px 10px;"></a>			  <a href="https://www.mathworks.com/" _target="_blank"><img src="img/sponsors/Mathworks_logo.svg" alt="osr" width="20%" style="margin:10px 10px;"></a> -->
-        <a href="https://www.brainproducts.com/" _target="_blank"><img src="img/sponsors/BrainProducts_OSR.jpg" alt="osr" width="20%" style="margin:8px 8px;"></a>
-        <a href="https://openneuro.org/" _target="_blank"><img src="img/sponsors/OpenNeuro_Logo.png" alt="osr" width="15%" style="margin:8px 8px;"></a>
-        <!-- <a href="https://openneuro.org/" _target="_blank"><img src="img/sponsors/TOSI-Rev_TOSI-Logo-Eng-v2.png" alt="osr" width="20%" style="margin:10px 10px;"></a> -->
-	      </p></div>
-   	    <!-- <div class="icons">
-		      <p align="center">
-			  <a href="https://openneuro.org/" _target="_blank"><img src="img/sponsors/OpenNeuro_Logo.png" alt="osr" width="20%" style="margin:10px 10px;"></a>
-			  <a href="https://rbiq-qbin.qc.ca/Home/" _target="_blank"><img src="img/sponsors/qbin_logo.svg" alt="osr" width="20%" style="margin:10px 10px;"></a>
-			  <a href="https://mathworks.com/" _target="_blank"><img src="img/sponsors/Mathworks_logo.svg" alt="osr" width="20%" style="margin:10px 10px;"></a>
-	      </p></div>
-	      <div class="icons">
-		      <p align="center">
-			  <a href="https://humanbrainmapping.org/" _target="_blank"><img src="img/sponsors/neuromod.svg" alt="osr" width="25%" style="margin:10px 10px;"></a>
-			  <a href="https://openneuro.org/" _target="_blank"><img src="img/sponsors/wellcomeCentre.svg" alt="osr" width="20%" style="margin:10px 10px;"></a>
-			  <a href="https://rbiq-qbin.qc.ca/Home/" _target="_blank"><img src="img/sponsors/conp.svg" alt="osr" width="20%" style="margin:10px 10px;"></a>
-	      </p></div>
-	      <div class="icons">
-		      <p align="center">
-			  <a href="https://brainhack.org/global2020/events/marburg/" _target="_blank"><img src="img/sponsors/brainhackMargburg.svg" alt="osr" width="20%" style="margin:10px 10px;"></a>
-			  <a href="https://www.qmenta.com/" _target="_blank"><img src="img/sponsors/qmenta.svg" alt="osr" width="25%" style="margin:10px 10px;"></a>			  
-	      </p></div> -->
-          
-	      
-	  <br>    
+          <h3>2026 OSR Sponsors</h3>
+          <div class="icons">
+            <p align="center">
+              {% for sponsor in site.data.sponsors %}
+              <a href="{{ sponsor.url }}" target="_blank" rel="noopener"><img src="{{ sponsor.logo }}" alt="{{ sponsor.name }}" width="{{ sponsor.logo_width }}" style="margin:8px 8px;"></a>
+              {% endfor %}
+            </p>
+          </div>
+
+          <br>
+
           <h3>How to get in touch!</h3>
 
           <p align="justify">We would be very pleased to hear from you to discuss any aspect of the OSR! Our communication channels are listed <a href="{{ '/contact/' | relative_url }}">here</a>.</p>

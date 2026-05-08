@@ -1,5 +1,6 @@
 ---
-Name: Pierre Bellec
+Photo: 
+Name: Lune Bellec
 Title:
 Pronouns:
 Job: Panelist

@@ -1,0 +1,19 @@
+- name: Cortical Labs
+  url: "https://corticallabs.com/"
+  logo: "/img/sponsors/CorticalLabs_OSR_BrainHack.png"
+  logo_width: "20%"
+
+- name: OHBM
+  url: "https://humanbrainmapping.org/"
+  logo: "/img/sponsors/OHBM_logo.svg"
+  logo_width: "15%"
+
+- name: Brain Products
+  url: "https://www.brainproducts.com/"
+  logo: "/img/sponsors/BrainProducts_OSR.jpg"
+  logo_width: "20%"
+
+- name: OpenNeuro
+  url: "https://openneuro.org/"
+  logo: "/img/sponsors/OpenNeuro_Logo.png"
+  logo_width: "15%"

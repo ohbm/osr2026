@@ -1,16 +1,18 @@
 ---
+Photo: /img/speakers/anita_jwa.jpg
 Name: Anita Jwa
-Title: Dr.
-Pronouns:
+Title: Research Scholar
+Pronouns: She/her/hers
 Job: Panelist
 Panel: Sharing Data Across Borders
-Affiliation: Department of Psychology, Stanford
-ShortBio: Speaker in the OHBM OSR 2026 panel on cross-border neuroimaging data sharing
-  and privacy risks.
+Affiliation: Stanford University
+ShortBio: I am a Research Scholar in Dr. Russ Poldrack's lab in the Department of Psychology
+  at Stanford University. With a background in law and neuroethics, my research focuses
+  on the ethical and regulatory issues around neuroimaging data sharing.
 Website:
 Twitter:
-Bluesky:
-LinkedIn:
+Bluesky: "https://bsky.app/profile/anniejwa.bsky.social"
+LinkedIn: "https://www.linkedin.com/in/anita-jwa-911a5291"
 GitHub:
 layout: speaker_page
 ---

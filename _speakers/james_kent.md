@@ -1,4 +1,5 @@
 ---
+Photo: 
 Name: James Kent
 Title: Dr.
 Pronouns:

@@ -1,4 +1,5 @@
 ---
+Photo: 
 Name: Eva Van Heese
 Title: PhD Candidate
 Pronouns:

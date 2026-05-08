@@ -1,4 +1,5 @@
 ---
+Photo: 
 Name: Oliver Gray
 Title: Dr.
 Pronouns:

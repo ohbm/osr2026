@@ -1,4 +1,5 @@
 ---
+Photo: 
 Name: Stefano Moia
 Title:
 Pronouns:

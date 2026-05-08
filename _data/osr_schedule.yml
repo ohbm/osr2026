@@ -3,9 +3,9 @@ days:
     tab_label: June 15
     heading: June 15, Monday
     entries:
-      - session_id: opening-bids-updates
       - session_id: buffet-open-science
       - session_id: sharing-data-across-borders
+      - session_id: opening-bids-updates
       - session_id: missing-large-data
       - session_id: preregistration-creativity
       - session_id: communicate-science
@@ -14,13 +14,15 @@ days:
     heading: June 16, Tuesday
     entries:
       - session_id: llms-open-science
-      - id: panel-slot-tbd
-        title: "Panel Slot: Title TBD"
+      - id: comcom-comms-comps
+        title: "Special Event: ComCom Comms Comps"
         start_time: "09:15"
-        end_time: "10:30"
+        end_time: "11:15"
         gcal_start: "20260616T091500"
-        gcal_end: "20260616T103000"
+        gcal_end: "20260616T111500"
         page_url: /schedule/
+        crowdcast_url: "https://www.crowdcast.io/c/osr-2026-comcom-comms-comp"
+        feedback_url: "https://forms.gle/yX7U7A4A41RehGVh9"
       - id: no-cap
         title: No-Cap (SACIN)
         start_time: "12:15"
@@ -28,6 +30,8 @@ days:
         gcal_start: "20260616T121500"
         gcal_end: "20260616T131500"
         page_url: /schedule/
+        crowdcast_url: "https://www.crowdcast.io/c/osr-2026-emergent-no-cap"
+        feedback_url: "https://forms.gle/uXVrXTz8AkFWYe186"
       - id: reproducibility-challenge
         title: Reproducibility Challenge
         start_time: "13:30"
@@ -35,6 +39,8 @@ days:
         gcal_start: "20260616T133000"
         gcal_end: "20260616T143000"
         page_url: /schedule/
+        crowdcast_url: "https://www.crowdcast.io/c/osr-2026-repro-challenge"
+        feedback_url: "https://forms.gle/sVW2SsezQLSq6N62A"
       - id: big-think
         title: Big Think
         start_time: "15:15"
@@ -42,6 +48,8 @@ days:
         gcal_start: "20260616T151500"
         gcal_end: "20260616T171500"
         page_url: /schedule/
+        crowdcast_url: "https://www.crowdcast.io/c/osr-2026-big-think"
+        feedback_url: "https://forms.gle/yVQnusmWqSnjSYbAA"
   - id: "06-17"
     tab_label: June 17
     heading: June 17, Wednesday
@@ -53,6 +61,8 @@ days:
         gcal_start: "20260617T080000"
         gcal_end: "20260617T090000"
         page_url: /emergent/
+        crowdcast_url: "https://www.crowdcast.io/c/osr-2026-emergent-1"
+        feedback_url: "https://forms.gle/NbGEjLwgYTRkS11Q7"
       - session_id: ten-years-ossig
       - session_id: career-journeys
       - id: emergent-2
@@ -62,6 +72,8 @@ days:
         gcal_start: "20260617T134500"
         gcal_end: "20260617T144500"
         page_url: /emergent/
+        crowdcast_url: "https://www.crowdcast.io/c/osr-2026-emergent-2"
+        feedback_url: "https://forms.gle/8xNkKk6rZgrZVX7M7"
       - id: software-demos
         title: Software Demonstrations
         start_time: "15:45"
@@ -69,6 +81,8 @@ days:
         gcal_start: "20260617T154500"
         gcal_end: "20260617T170000"
         page_url: /schedule/
+        crowdcast_url: "https://www.crowdcast.io/c/osr-2026-sotware-demos"
+        feedback_url: "https://forms.gle/M3a68qSpoJVgWbuj6"
   - id: "06-18"
     tab_label: June 18
     heading: June 18, Thursday
@@ -80,6 +94,8 @@ days:
         gcal_start: "20260618T091500"
         gcal_end: "20260618T101500"
         page_url: /emergent/
+        crowdcast_url: "https://www.crowdcast.io/c/osr-2026-emergent-3"
+        feedback_url: "https://forms.gle/MYzvtefVvYxYtkfr6"
       - id: emergent-4
         title: Emergent Session 4
         start_time: "11:15"
@@ -87,6 +103,8 @@ days:
         gcal_start: "20260618T111500"
         gcal_end: "20260618T121500"
         page_url: /emergent/
+        crowdcast_url: "https://www.crowdcast.io/c/osr-2026-emergent-4"
+        feedback_url: "https://forms.gle/QCeNZyLqB7q4X5Ac6"
       - id: emergent-5
         title: Emergent Session 5
         start_time: "12:30"
@@ -94,6 +112,8 @@ days:
         gcal_start: "20260618T123000"
         gcal_end: "20260618T133000"
         page_url: /emergent/
+        crowdcast_url: "https://www.crowdcast.io/c/osr-2026-emergent-5"
+        feedback_url: "https://forms.gle/8KPgTVnLer5GMLwH8"
       - id: emergent-6
         title: Emergent Session 6
         start_time: "13:45"
@@ -101,3 +121,5 @@ days:
         gcal_start: "20260618T134500"
         gcal_end: "20260618T144500"
         page_url: /emergent/
+        crowdcast_url: "https://www.crowdcast.io/c/osr-2026-emergent-6"
+        feedback_url: "https://forms.gle/LZ2DH4ZTGmj2oF9Q8"

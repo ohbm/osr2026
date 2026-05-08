@@ -8,7 +8,7 @@ Below we provide basic info and links to more information.
 
 ### Who are we?
 
-We are part of the <a href="https://ossig.netlify.com/">Open Science Special Interest Group</a>(OSSIG) of the <a href="https://humanbrainmapping.org/">Organization for Human Brain Mapping</a>.
+We are part of the <a href="https://ossig.netlify.app/">Open Science Special Interest Group</a>(OSSIG) of the <a href="https://humanbrainmapping.org/">Organization for Human Brain Mapping</a>.
 
 ### What are we doing?
 

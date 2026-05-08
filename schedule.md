@@ -31,7 +31,7 @@ permalink: /schedule/
 </p>
 
 <p style="text-align: center;">
-<em>The schedule below follows the current OHBM 2026 OSR program. One Tuesday morning panel-length slot is still unlabeled in the current program, so it is listed here as TBD.</em>
+<em>The schedule below follows the current OHBM 2026 OSR program.</em>
 </p>
 
 {% for day in schedule_days %}
@@ -42,6 +42,7 @@ permalink: /schedule/
             <tr>
                 <td><b>Time</b></td>
                 <td><b>OPEN SCIENCE ROOM</b></td>
+                <td><b>Crowdcast</b></td>
                 <td><b>Calendar</b></td>
             </tr>
             {% for entry in day.entries %}
@@ -49,6 +50,8 @@ permalink: /schedule/
             {% if entry.session_id %}
               {% assign session = site.data.osr_sessions | where: "id", entry.session_id | first %}
             {% endif %}
+            {% assign crowdcast_url = session.crowdcast_url | default: entry.crowdcast_url %}
+            {% assign feedback_url = session.feedback_url | default: entry.feedback_url %}
             <tr>
                 <td>{% if session %}{{ session.start_time }}-{{ session.end_time }}{% else %}{{ entry.start_time }}-{{ entry.end_time }}{% endif %}</td>
                 <td>
@@ -73,7 +76,11 @@ permalink: /schedule/
                       {% assign calendar_title = entry.title %}
                       <div>{% if entry.page_url == "/schedule/" %}{{ entry.title }}{% else %}<a href="{{ session_href }}">{{ entry.title }}</a>{% endif %}</div>
                     {% endif %}
+                    {% if site.show_feedback_forms and feedback_url %}
+                      <div><a href="{{ feedback_url }}" target="_blank" rel="noopener">Feedback form</a></div>
+                    {% endif %}
                 </td>
+                <td>{% if crowdcast_url %}<a href="{{ crowdcast_url }}" target="_blank" rel="noopener">Watch live</a>{% endif %}</td>
                 <td><a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text={{ calendar_title | uri_escape }}&dates={% if session %}{{ session.gcal_start }}%2F{{ session.gcal_end }}{% else %}{{ entry.gcal_start }}%2F{{ entry.gcal_end }}{% endif %}&ctz=Europe%2FParis&details=OHBM%20Open%20Science%20Room%202026%20session.%20Full%20schedule%3A%20{{ schedule_base_url | append: schedule_path | uri_escape }}&location={% if session_href contains '://' %}{{ session_href | uri_escape }}{% else %}{{ schedule_base_url | append: session_href | uri_escape }}{% endif %}" target="_blank" rel="noopener">Add to Google Calendar</a></td>
             </tr>
             {% endfor %}

@@ -4,14 +4,7 @@ layout: base
 
 {% include header.html type="speaker" %}
 
-{% assign img_path = nil %}
-{% assign names = page.Name | downcase | split: " " %}
-{% assign img_path = "/img/speakers/placeholder.jpg" %}
-{% for file in site.static_files %}                
-    {% if file.path contains names.first and file.path contains names[1] %}
-        {% assign img_path = file.path %}
-    {% endif %}
-{% endfor %}
+{% assign img_path = page.Photo | default: "/img/speakers/placeholder.jpg" %}
 
 <div class="container" role="main">
   <div class="row">

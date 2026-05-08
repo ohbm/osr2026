@@ -1,0 +1,51 @@
+- id: crowdcast
+  name: Crowdcast
+  url: "https://www.crowdcast.io/"
+  logo: "/img/crowdcast-logo.svg"
+  logo_width: "30%"
+  description: >
+    The OSR program will be broadcast via Crowdcast. To prepare, you can
+    <a href="https://www.crowdcast.io/" target="_blank" rel="noopener">create a free account</a>,
+    and find out more about
+    <a href="https://docs.crowdcast.io/en/collections/112110-attendee-support" target="_blank" rel="noopener">how to attend a Crowdcast event</a>.
+    On the <a href="https://www.crowdcast.io/ossig2019" target="_blank" rel="noopener">OHBM OS-SIG's Crowdcast page</a>,
+    you can access the list of all upcoming OSR events. Follow the account to receive event updates.
+    Passwords to access the broadcasts will be emailed to
+    <a href="/register/">registered</a> participants.
+
+- id: mattermost
+  name: Mattermost
+  url: "https://mattermost.com/"
+  logo: "/img/mattermost-logo.svg"
+  logo_width: "10%"
+  description: >
+    Text-based chat on Mattermost (an open source equivalent of Slack) is part of the Open Science Room experience.
+    Please <a href="https://mattermost.brainhack.org/signup_email" target="_blank" rel="noopener">sign up here</a>
+    and join the
+    <a href="https://mattermost.brainhack.org/brainhack/channels/hbm-open-science-room" target="_blank" rel="noopener"><code>hbm-open-science-room</code></a>
+    channel where we will be sharing information regularly.
+    To find out more about using Mattermost, have a look at this
+    <a href="https://www.youtube.com/watch?v=eq4yEM5z5SY&list=PL-jqvaPsjQpMqnRgFEw_3fuGQbcVDTpaM&index=5" target="_blank" rel="noopener">Mattermost basics demo video</a>
+    or their <a href="https://docs.mattermost.com/guides/user.html" target="_blank" rel="noopener">User Guide</a>.
+
+- id: youtube
+  name: YouTube
+  url: "https://www.youtube.com/"
+  logo: "/img/youtube-logo.svg"
+  logo_width: "10%"
+  description: >
+    You can also watch the program, without participating in the events, via YouTube.
+    All content will be posted to our
+    <a href="https://www.youtube.com/channel/UChvSitFvqGDeA1y7MJs4CGQ" target="_blank" rel="noopener">OS-SIG YouTube Channel</a>.
+    You can subscribe to the channel for event updates.
+
+- id: douyu
+  name: DouYu
+  url: "https://www.douyu.com/"
+  logo: "/img/Douyu-logo_geg.svg"
+  logo_width: "10%"
+  description: >
+    You can also watch the program, without participating in the events, via DouYu.
+    All content will be posted to our
+    <a href="https://v.douyu.com/author/E6djmK60BNw1" target="_blank" rel="noopener">OS-SIG DouYu Channel</a>.
+    You can subscribe to the channel for event updates.

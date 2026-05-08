@@ -1,4 +1,5 @@
 ---
+Photo: 
 Name: Gaëlle Leroux
 Title: Dr.
 Pronouns:

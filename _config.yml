@@ -140,6 +140,8 @@ title-separator: "-"
 # Ruby Date Format
 date_format: "%B %-d, %Y"
 
+show_feedback_forms: false
+
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
