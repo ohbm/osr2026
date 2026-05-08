@@ -14,6 +14,13 @@ days:
     heading: June 16, Tuesday
     entries:
       - session_id: llms-open-science
+      - id: ossig-symposium
+        title: "OSSIG Symposium: Legal Dimensions of Open Science: From Publishing, to Software, and Data"
+        start_time: "09:00"
+        end_time: "10:15"
+        gcal_start: "20260616T090000"
+        gcal_end: "20260616T101500"
+        page_url: /symposium/
       - id: comcom-comms-comps
         title: "Special Event: ComCom Comms Comps"
         start_time: "09:15"

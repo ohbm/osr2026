@@ -3,201 +3,55 @@ layout: page
 title: Open Science Symposium
 ---
 
-## Share it all: challenges in reproducibility from data acquisition to management and analysis 
-#### WHEN: To be announced for 2026
-#### LOCATION: To be announced
+## Legal Dimensions of Open Science: From Publishing, to Software, and Data
+#### WHEN: Tuesday, June 16, 2026, 09:00-10:15
+#### LOCATION: Room Agora
 
-The current 2026 OSR program does not yet list a dedicated symposium slot under this title, so the timing and room details for this page are still pending confirmation.
+### Organizers
+- Muriah Wheelock, Washington University in St. Louis, St. Louis, MO, United States
+- Stefano Moia, Maastricht University, Maastricht, Netherlands
 
-Under the requests of many journals and funding bodies, our science is becoming more and more open and reproducible. With the increased adoption of open scientific practices, new challenges emerge, from cultural and ethical issues to practical issues in dealing with those steps of our scientific journey that are still not open or not completely reproducible.
-Making our science open can be time consuming and requires skills that might not be part of our academic curricula yet - and that adds to the challenges of junior and early career researchers. Data availability and accessibility are fundamental principles to reproducible science but they clash against national and international legislation on data protection and the equally fundamental principle of individuals’ protection.
-Closed-source or vendor-specific methods to create that data make it hard to obtain complete reproducibility of the scientific process, and advanced analyses that can take the form of non-transparent, black, boxes, lower the chances of reproducing results.
-These are the topics that we will address in this symposium, organised by the Open Science SIG. Specifically, we will address the following four questions:
-1. How do we survive academia as (junior and early career researcher) open scientists?
-2. How do we make (fMRI) data acquisition open and reproducible?
-3. How do we share data in a way that keeps privacy but allows access?
-4. How do we maximize reusability and reproducibility of our analyses (especially in AI)?
+### Description
+This symposium aims to engage the audience in reflecting on the impact of legal requirements, including privacy laws, licences, and patents on reproducible science in both academic and industry, from software development to data sharing to manuscript publication. Although licensing and patenting are often overlooked in scientific education, their influence on software, data, and manuscript distribution is far reaching and impacts everyone in the OHBM community.
 
+Rather than focusing on how licenses should be used or laws interpreted, this symposium will tackle current issues from the perspective of their impact on scientific outputs. Speakers will dedicate time during each talk to introduce concepts like copyright, patents, and regulatory bodies and discuss their broader implications while also introducing specific use cases spanning academic, governmental, and industry perspectives. By addressing these topics in a symposium format, we facilitate a comprehensive, multidisciplinary dialogue incorporating expertise in law, governmental policy, and industry.
 
-### Featured Talks
-## Breaking Barriers: A Practical Guide to Thriving as Open Scientists in Neuroimaging
-#### Speaker: Nikhil Parag Bhawat
+### Learning Objectives
+1. Describe how both for-profit and copy-left licenses can restrict open science.
+2. Employ a plan of action when government-funded research publishing licences conflict with the licenses of publishers.
+3. Express the reasons MRI data may fall under strict legal regulations and how this impacts data sharing globally.
 
-<br>Navigating the complexities of academia as open scientists demands more than mastering reproducible workflows and open tools; it requires resilience in the face of systemic barriers and a steadfast commitment to fostering transparency
-This talk offers a pragmatic guide tailored for Early Career Researchers, addressing challenges in neuroimaging research (fMRI and EEG) and the adoption of open science practices.
-From curating datasets to publishing reproducible findings, we share lessons learned and practical strategies for aligning innovation with the principles of Findable, Accessible, Interoperable, and Reusable (FAIR) data.
-The talk concludes with actionable steps for integrating open standards and tools while fostering a research environment that prioritizes transparency, reliability, and collaborative progress.
-<br>
+### Target Audience
+The target audience is researchers of any stage interested in better understanding licensing and how licensing choices can impact open and reproducible science. While specific use cases are elaborated on, including MRI pulse sequences, neuroimaging software, NIH publishing licenses, and GDPR regulations on data sharing, the concepts discussed in this symposium are broadly applicable for any OHBM attendant who has used neuroimaging tools, data, or published in journals.
 
+### Presentations
 
-## Harmonizing functional MRI with open-source data acquisition and reconstruction
-#### Speaker: Scott Peltier
+## Legal issues between publishing and open access
+#### Presenter: Katie Funk
+#### Affiliation: Washington University in St. Louis, St. Louis, MO, United States
 
-<br>In principle, pooling functional MRI data across different sites and points in time should allow for increased statistical power, provided that the imaging experiment can be conducted in a known and reproducible way. While post-processing attempts to correct for ‘site’ variance have been somewhat successful, it would be better to control for potential differences (e.g., vendor, scanner model, scanner software) during the acquisition itself. Historically this has been a challenge, as the details of the vendor-provided fMRI acquisition and reconstruction software are generally not known.<br>
+Copyright and licenses provide legal frameworks that protect the intellectual property and impact the distribution of scientific products. As the world's largest public funder of biomedical research, the National Institute of Health (NIH) has proprietary interest in the licensing and distribution of scientific products generated by NIH awards. In December 2024, the NIH announced an updated public access policy, requiring that manuscripts accepted for publication in journals be made publicly available in PubMed Central immediately upon publication. Guidance on publishing costs and the rights Federal agencies hold under the "Government Use License" (or "Federal Purpose License") was also released with the 2024 Policy.
 
-<br>The researcher can in principle implement the imaging protocol themselves using each vendor’s pulse sequence programming environment, but this is a technically difficult and time-consuming task. Existing multi-site studies have therefore invested significant resources into making the fMRI protocols on different systems as similar as possible and maintaining them across scanner software upgrades. However, even then the protocols can often only be ‘harmonized’ with respect to high-level sequence parameters such as FOV, matrix size, and net acceleration factor; subtle but potentially important differences in, e.g., details of sequence timing or RF and gradient waveform shapes, are often not known to the researchers or are beyond their control.<br>
+Since taking effect on July 1, 2025, the updated policy, and accompanying materials, have reopened debate around author rights and publisher policies in facilitating the immediate sharing of accepted author manuscripts. The policy change has also prompted NIH to raise questions about the use of federal funds to cover the article processing charges (APCs) that many journals require for open access licensing. This presentation will provide context for the shift to immediate public access for federally funded research, explain the practical implications of Government Use License and related licensing considerations, and provide guidance to researchers for navigating journal licences and APCs.
 
-<br>In this talk we will discuss open-source fMRI approaches, and describe a fully vendor-agnostic and portable fMRI protocol that ensures identical sequence execution and image reconstruction across different scanners, and across scanner software upgrades. The acquisition sequence is defined in simple human-readable text files, and sequence execution on real hardware is made possible by openly available sequence-agnostic interpreters. We believe this framework will enable reproducible, truly harmonized multi-site and longitudinal functional studies.<br>
+## Open science in medical technology: mindful approach to licenses, patents, and intellectual property
+#### Presenter: Maxim Zaitsev
+#### Affiliation: University Medical Center Freiburg, Freiburg, Germany
 
-## BRIDGE
-#### Speaker: Kimberly Ray
+A distinctive feature of MRI is that much of its technology has been co-created over the past four decades through close collaboration between academia and industry. In this model, vendors developed medical imaging devices, provided closed-source method development environments to selected research sites, and shared limited portions of source code under the terms of specific collaboration agreements. While this approach fostered collaboration, it also led to a fragmented and partially opaque research landscape that increasingly faces challenges related to replication and reproducibility.
 
-<br>Recently, two global trends have converged at a critical juncture, researchers’ push for open science, and policy-makers’ push for the tightening of personal data privacy (PDP) legislation. The principles underlying these movements, open science’s call for data accessibility and privacy laws’ emphasis on data protection, often stand in opposition. These conflicting movements impede progress in neuroscience, highlighting the need for solutions that balance openness with PDP. Recognizing this critical need, the International Brain Initiative recently published a call to action to develop international data governance frameworks (IDGF) for neuroscience to promote international collaboration and facilitate scientific discovery.<br>
+To address limitations in data and methodology sharing, we create PulSeq, a vendor-neutral MR pulse sequence framework that can serve as a foundation for a fully open-source MRI ecosystem, to promote the sharing of pulse sequence and image reconstruction code. Establishing such an environment can foster collaboration between researchers, improve reproducibility, mitigate artificial vendor boundaries, and enhance research impact, but it also requires a responsible approach to intellectual property rights, which depends on mutual understanding and respect between the research community and industry. In this talk we will share our experience and lessons learnt from the PulSeq project, showing that alongside growing enthusiasm for openness, increased literacy in intellectual property rights and obligations is equally important.
 
-<br>Data governance involves the principles, procedures, frameworks, and policies that safeguard responsible processing of data. A robust IDGF is essential to balance open science with PDP laws, yet such frameworks are lacking in neuroscience. Effective IDGFs can establish standardized protocols for anonymization, data standardization and sharing, and access permissions, thus enabling researchers to share data without compromising PDP.<br>
+## Business Context Preferences of Open vs. Closed Software and Technique
+#### Presenter: Prantik Kundu
+#### Affiliation: Wayne State University / Eye Three Inc., Detroit, MI, United States
 
-<br>BRIDGE (braindatagovernance.org), is tasked to develop IDGFs to facilitate international sharing of brain and mental health data, addressing the challenges posed by varying legal, ethical, and technical landscapes. We will present a Practical Guide to Accessing and Sharing Brain Data. This guide will outline a framework for navigating the legal, ethical, and procedural requirements involved in accessing and sharing brain data. We will cover the following stages: Project Planning & Proposal Development, Ethics Approval & Informed Consent, Data Collection, Data Processing & Analysis, Data Sharing & Collaboration, Dissemination & Public Engagement, and Data Stewardship. We will include examples where possible that apply to researchers globally. We will also highlight tools, standards, and resources supporting IDG.<br>
+The past 20 years have shown the world that open-source software is transformative for rapid advancement and growth in many areas of science and technology, and its role in commercial software has been particularly surprising given several prior decades of closed-source precedent. However, in many current and longstanding private and commercial contexts, open approaches create several lines of financial and legal risk to equity holders and customers, especially when ownership and responsibility are tied to risks of health and life. The reality for medical scientists working in data and informatics traversing commercial applications is that both contexts are real and valid and must coexist. In this talk we will discuss strategies including using specific software development patterns, intellectual property, licensing, and ecosystem building that allow for productive synergies between open and closed source software.
 
-## AI for open neuroimaging: opportunities and challenges from an open science perspective
-#### Speaker: Helen Zhou
+## Navigating data protection regulations: Emerging EU reforms and Global Implications for Open Neuroimaging Data Sharing
+#### Presenter: Mireille Sant
+#### Affiliation: University of Malta, Malta, NA, Malta
 
-<br>Recent advancements in large-scale brain imaging, combined with the rapid progress in deep learning and generative AI, are transforming our understanding of the human brain.
-This convergence offers a unique opportunity to enhance cognitive abilities throughout the lifespan and to develop personalized, precise treatments for neurological disorders.
-In this talk, I will explore how open science approaches—such as open datasets, open-source software, and collaborative tools—are driving the development and refinement of AI methods for brain imaging.
-These include applications in brain lesion segmentation, vision decoding, and the creation of brain foundation models.
-I will discuss how open science fosters the reusability and reproducibility of AI-driven brain imaging analyses, while addressing key challenges, such as adaptation across diverse cohorts, database harmonization, cross-validation, hyperparameter optimization, and benchmark evaluation.
-Open science is crucial for advancing AI applications in neuroscience and medicine, and it plays an essential role in overcoming current barriers to progress.
-<br>
+This lecture outlines how the European Union (EU) data protection law currently applies to neuroimaging data sharing, explaining why MRI datasets almost always constitute personal and often special category data under the General Data Protection Regulation (GDPR), thereby triggering strict legal bases, derogations, core data protection principles, information obligations, and international transfer constraints, affecting smaller institutions disproportionately.
 
-<br>
-
-
-<!-- <table class="people">
-    <tr class="people">
-        <td class="people">
-            <a style="display:block; color:#05323F">
-            <aside>
-            <header>
-                <img src="../img/speakers/placeholder.jpg" style="height:200px; border-radius:50%;">
-                <h3>Filima Patrick</h3>
-                <h6>University of Port-Harcourt, Nigeria</h6>
-                <h4>
-                
-                <a target="_blank" href="https://twitter.com/NaomiGaggi"><i class="fa fa-twitter fa-2x" style="position: relative; top: 0px;text-indent:0px;  vertical-align: middle; margin-left:4px; margin-right:4px;"></i></a>
-                <a target="_blank" href="https://github.com/NaomiGaggi"><i class="fa fa-github fa-2x" style="position: relative; top: 0px; text-indent:0px; vertical-align: middle; margin-left:4px; margin-right:4px;"></i></a>
-                <a target="_blank" href="https://NaomiGaggi.Wordpress.com"><i class="fa fa-external-link-square fa-2x" style="position: relative; top: 0px;text-indent:0px;  vertical-align: middle; margin-left:4px; margin-right:4px;"></i></a>
-               
-                </h4>
-                <br>
-            </header>
-            </aside>
-            </a>
-        </td>
-        <td class="people">
-            <a style="display:block; color:#05323F">
-            <aside>
-            <header>
-                <img src="../img/speakers/placeholder.jpg" style="height:200px; border-radius:50%;">
-                <h3>Ebere Wogu</h3>
-                <h6>University of Port-Harcourt, Nigeria</h6>
-                <h4>
-                 
-                <a target="_blank" href="https://twitter.com/SubapriyaSuppi1"><i class="fa fa-twitter fa-2x" style="position: relative; top: 0px;text-indent:0px;  vertical-align: middle; margin-left:4px; margin-right:4px;"></i></a>
-                <a target="_blank" href="https://github.com/Drpriyasiva"><i class="fa fa-github fa-2x" style="position: relative; top: 0px; text-indent:0px; vertical-align: middle; margin-left:4px; margin-right:4px;"></i></a>
-                <a target="_blank" href="https://www.linkedin.com/in/subapriya-suppiah-93375b8b/"><i class="fa fa-external-link-square fa-2x" style="position: relative; top: 0px;text-indent:0px;  vertical-align: middle; margin-left:4px; margin-right:4px;"></i></a>
-               
-                </h4>
-                <br>
-            </header>
-            </aside>
-            </a>
-        </td>
-        <td class="people">
-            <a style="display:block; color:#05323F">
-            <aside>
-            <header>
-                <img src="../img/speakers/placeholder.jpg" style="height:200px; border-radius:50%;">
-                <h3>Damian Eke</h3>
-                <h6>University of Nottingham, UK</h6>
-                <h4>
-                 
-                <a target="_blank" href="https://twitter.com/SubapriyaSuppi1"><i class="fa fa-twitter fa-2x" style="position: relative; top: 0px;text-indent:0px;  vertical-align: middle; margin-left:4px; margin-right:4px;"></i></a>
-                <a target="_blank" href="https://github.com/Drpriyasiva"><i class="fa fa-github fa-2x" style="position: relative; top: 0px; text-indent:0px; vertical-align: middle; margin-left:4px; margin-right:4px;"></i></a>
-                <a target="_blank" href="https://www.linkedin.com/in/subapriya-suppiah-93375b8b/"><i class="fa fa-external-link-square fa-2x" style="position: relative; top: 0px;text-indent:0px;  vertical-align: middle; margin-left:4px; margin-right:4px;"></i></a>
-               
-                </h4>
-                <br>
-            </header>
-            </aside>
-            </a>
-        </td>
-        <td class="people">
-            <a style="display:block; color:#05323F">
-            <aside>
-            <header>
-                <img src="../img/speakers/placeholder.jpg" style="height:200px; border-radius:50%;">
-                <h3>Franco Pestilli</h3>
-                <h6>Speaker, University of Texas, USA</h6>
-                <h4>
-                 
-                <a target="_blank" href="https://twitter.com/SubapriyaSuppi1"><i class="fa fa-twitter fa-2x" style="position: relative; top: 0px;text-indent:0px;  vertical-align: middle; margin-left:4px; margin-right:4px;"></i></a>
-                <a target="_blank" href="https://github.com/Drpriyasiva"><i class="fa fa-github fa-2x" style="position: relative; top: 0px; text-indent:0px; vertical-align: middle; margin-left:4px; margin-right:4px;"></i></a>
-                <a target="_blank" href="https://www.linkedin.com/in/subapriya-suppiah-93375b8b/"><i class="fa fa-external-link-square fa-2x" style="position: relative; top: 0px;text-indent:0px;  vertical-align: middle; margin-left:4px; margin-right:4px;"></i></a>
-               
-                </h4>
-                <br>
-            </header>
-            </aside>
-            </a>
-        </td>
-    </tr>
-</table>
-<table class="people">
-    <tr class="people">
-        <td class="people">
-            <a style="display:block; color:#05323F">
-            <aside>
-            <header>
-                <img src="../img/speaker/placeholder.jpg" style="height:200px; border-radius:50%;">
-                <h3>Xinian Xuo</h3>
-                <h6>Beijing Normal University</h6>
-                <h4>
-                 
-                <a target="_blank" href="https://twitter.com/sNeuroble"><i class="fa fa-twitter fa-2x" style="position: relative; top: 0px;text-indent:0px;  vertical-align: middle; margin-left:4px; margin-right:4px;"></i></a>
-               
-                </h4>
-                <br>
-            </header>
-            </aside>
-            </a>
-        </td>
-  <td class="people">
-            <a style="display:block; color:#05323F">
-            <aside>
-            <header>
-                <img src="../img/speakers/placeholder.jpg" style="height:200px; border-radius:50%;">
-                <h3> Ollie Gray</h3>
-                <h6> UK Biobank</h6>
-                <h4>
-                
-                <a target="_blank" href="https://twitter.com/vborghesani"><i class="fa fa-twitter fa-2x" style="position: relative; top: 0px;text-indent:0px;  vertical-align: middle; margin-left:4px; margin-right:4px;"></i></a>
-               
-                </h4>
-                <br>
-            </header>
-            </aside>
-            </a>
-        </td>
-        <td class="people">
-            <a style="display:block; color:#05323F">
-            <aside>
-            <header>
-                <img src="../img/speakers/placeholder.jpg" style="height:200px; border-radius:50%;">
-                <h3> Carina Heller</h3>
-                <h6> ENIGMA Neuroendocrinology Working Group</h6>
-                <h4>
-                
-                <a target="_blank" href="https://twitter.com/vborghesani"><i class="fa fa-twitter fa-2x" style="position: relative; top: 0px;text-indent:0px;  vertical-align: middle; margin-left:4px; margin-right:4px;"></i></a>
-               
-                </h4>
-                <br>
-            </header>
-            </aside>
-            </a>
-        </td>
-        <td class="people">
-        </td>
-    </tr>
-</table> -->
-
-
+It then assesses the impact on sustainable, inclusive, and reproducible science of the proposed EU reforms, including a clarified definition of scientific research, revised compatibility rules for further processing, entity-relative identifiability standards, and streamlined information duties, that could reshape compliance pathways and either alleviate or entrench the existing patchwork of Member State obligations. Finally, the lecture abstracts these insights to consider how the GDPR's concepts, constraints, and regulatory logic influence global data sharing ecosystems, highlighting implications for researchers and data users outside the EU and drawing parallels with other international frameworks to identify common challenges and opportunities for open, equitable neuroimaging science.
