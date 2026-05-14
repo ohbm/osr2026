@@ -35,6 +35,14 @@ Wipe the built directories if they already exist, and re-build:
 `rm -r _speakers _volunteers; bundle exec jekyll pagemaster speakers volunteers`
 Commit the new directories and push the site. This must be done every time the CSV files are changed. 
 
++ Regenerate the downloadable OSR calendar after changing `_data/osr_schedule.yml` or `_data/osr_sessions.yml`:
+
+```bash
+ruby scripts/generate_osr_ics.rb
+```
+
+This writes `downloads/OSRschedule.ics` with 2026 `Europe/Paris` event times for the public schedule download.
+
 + If `bundle exec` error out, do the following things:
 
     1. Create Gemfile
